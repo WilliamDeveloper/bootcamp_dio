@@ -151,3 +151,40 @@ console.log('hora: ',valor_data.getHours());
 console.log('minito: ',valor_data.getMinutes());
 console.log('segundos: ',valor_data.getSeconds());
 console.log('minisegundos: ',valor_data.getMilliseconds());
+
+
+/* aula 4 */
+function soma(n1,n2){
+  return n1 + n2;
+}
+
+var resultado = soma(1,4);
+console.log('resultado: ',resultado);
+
+function setReplace(frase,nome, novo_nome){
+  return frase.replace(nome,novo_nome);
+}
+
+var resultado = setReplace("vai japao",'japao','brasil');
+console.log('resultado: ',resultado);
+
+
+function validarIdade(idade){
+  var resultado;
+  if(idade >=18){
+    resultado =true;
+  }else{
+    resultado = false;
+  }
+  return resultado;
+}
+
+var idade = 18
+var resultado = validarIdade(idade);
+console.log('resultado: ',resultado);
+
+var idade = 17
+var resultado = validarIdade(idade);
+console.log('resultado: ',resultado);
+
+
