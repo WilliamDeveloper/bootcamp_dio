@@ -82,3 +82,72 @@ var dicionario_atual = lista_dicionario[1]
 console.log(dicionario_atual.nome)
 console.log(dicionario_atual.cor)
 
+/* aula 3 */
+
+var idade = 19;
+if(idade > 18){
+  var mensagem = 'maior de idade';
+  console.log(mensagem);
+  // alert(mensagem);
+}
+
+var idade = 17;
+if(idade < 18){
+  var mensagem = 'menor de idade';
+  console.log(mensagem);  
+}
+
+var idade = 18;
+if(idade == 18){
+  var mensagem = 'igual a 18';
+  console.log(mensagem);  
+}
+
+var idade = 18;
+if(idade >= 18){
+  var mensagem = 'maior igual';
+  console.log(mensagem);  
+}
+
+
+var idade = 18;
+if(idade <= 18){
+  var mensagem = 'menor igual';
+  console.log(mensagem);  
+}
+
+var idade = 20;
+if(idade < 18){
+  var mensagem = 'menor de idade';
+  console.log(mensagem);  
+}else{
+  console.log('caiu no else');
+}
+
+// var valorDigitado = prompt("qual sua idade");
+// console.log("o usuario digitou",valorDigitado);
+
+var contador = 0;
+while(contador < 5){
+  console.log('contador: ',contador);
+  // contador = contador + 1;
+  contador++;
+}
+
+console.log('');
+for(var contador=0; contador < 5; contador++){
+  console.log('contador: ',contador);
+}
+
+console.log('');
+var valor_data = new Date();
+console.log('valor_data: ',valor_data);
+console.log('dia: ',valor_data.getDay());
+console.log('mes: ',valor_data.getMonth()+1);
+console.log('ano: ',valor_data.getFullYear());
+
+console.log('');
+console.log('hora: ',valor_data.getHours());
+console.log('minito: ',valor_data.getMinutes());
+console.log('segundos: ',valor_data.getSeconds());
+console.log('minisegundos: ',valor_data.getMilliseconds());
