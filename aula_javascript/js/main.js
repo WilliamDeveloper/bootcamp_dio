@@ -1,3 +1,4 @@
+/* aula 1*/
 //alert('meu primeiro js');
 
 //comentario de 1 linha
@@ -6,7 +7,6 @@
 comentario
 de mais de uma linha
 */
-
 
 var nome= "william pacheco";
 var idade =29;
@@ -30,3 +30,55 @@ var a = 7;
 var b = 7;
 var resultado = a * b;
 console.log(resultado);
+
+
+/* aula 2 */
+console.log('');
+var lista = ["Maça", "Pera", "Laranja"];
+
+lista.push("uva"); // adicionando elemento na lista
+console.log(lista);
+
+lista.pop(); // removendo um elemento da lista
+console.log(lista);
+console.log('tamanho-lista: '+lista.length);
+
+console.log("lista-invertida: ",lista.reverse());
+
+console.log("lista: ",lista);
+console.log("itens-lista-separado-por-virgula: ",lista.toString());
+console.log("itens-lista-separado-por-virgula: ",lista.toString());
+
+item0 = lista[0]
+console.log("elemento-zero-da-lista: ",item0);
+console.log("primeiro-character-item0: ", item0[0]);
+
+stringSeparadaPorJoin = lista.join(" - ");
+console.log("string-separada-por-traco: ",stringSeparadaPorJoin);
+
+var dicionario = {
+  nome: "maçã",
+  cor: "vermelha",
+};
+console.log("dicionario: ",dicionario);
+console.log("dicionario.nome: ",dicionario.nome);
+console.log("dicionario.cor: ",dicionario.cor);
+
+var lista_dicionario = [
+  { nome: "maçã", cor: "vermelha" },
+  { nome: "uva", cor: "roxa" },
+]
+
+console.log('');
+console.log(lista_dicionario)
+
+console.log('');
+var dicionario_atual = lista_dicionario[0]
+console.log(dicionario_atual.nome)
+console.log(dicionario_atual.cor)
+
+console.log('');
+var dicionario_atual = lista_dicionario[1]
+console.log(dicionario_atual.nome)
+console.log(dicionario_atual.cor)
+
