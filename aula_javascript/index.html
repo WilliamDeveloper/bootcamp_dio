@@ -5,9 +5,21 @@
     <meta charset="utf-8">
     <script type="text/javascript" src="js/main.js"></script>
   </head>
-  <body>
+  <body onLoad="paginaCarregada()">
     
     <h1>Minha página</h1>
+    <button type="button" onclick="botao()">clique aqui</button>
+    <button type="button" onclick="redirecionar()">redirecionar</button>
+    <p id="agradecimento"></p>
+
+    <p id="mouseOver" onmouseover="onMouseOver(this)" onmouseout="onMouseOut(this)">passe o mouse aqui</p>
+    <p id="mouseOver2" onmouseover="onMouseOver(this)" onmouseout="onMouseOut(this)">passe o mouse aqui</p>
+
+    <select onChange="onChange(this)">
+      <option value="1">um</option>
+      <option value="2">dois</option>
+      <option value="3">tres</option>      
+    </select>
 
     <script>
       console.log('');

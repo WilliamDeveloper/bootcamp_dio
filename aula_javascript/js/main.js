@@ -187,4 +187,44 @@ var idade = 17
 var resultado = validarIdade(idade);
 console.log('resultado: ',resultado);
 
+/* aula 5 */
 
+function botao(){
+  console.log('clicou no botao');
+  var elemento = document.getElementById('agradecimento');
+  console.log(elemento);
+  elemento.innerHTML = "<b>"+"Obrigado por clicar"+"</b>";
+  // agradecimento
+
+}
+
+function redirecionar(){
+  var link = 'https://www.google.com';
+  window.open(link);
+  window.location.href=link;
+}
+
+function onMouseOver(elemento){
+  console.log('onMouseOver');
+  // var elemento = document.getElementById('mouseOver');
+  console.log(elemento);
+  elemento.innerHTML = 'Obrigado por passar o mouse';
+
+}
+
+function onMouseOut(elemento){
+  console.log('onMouseOut');
+  // var elemento = document.getElementById('mouseOver');
+  console.log(elemento);
+  elemento.innerHTML = 'passe o mouse aqui';
+}
+
+function paginaCarregada(){
+  console.log('paginaCarregada');
+}
+
+function onChange(elemento){
+  console.log('onChange ',elemento.value);
+  
+
+}
