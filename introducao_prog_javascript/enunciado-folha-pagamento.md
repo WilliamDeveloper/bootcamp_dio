@@ -19,3 +19,15 @@ Exemplos de Entrada	| Exemplos de Saída
 25 <br> 100<br> 5.50 | NUMBER = 25 <br> SALARY = U$ 550.00
 1 <br> 200 <br> 20.50 | NUMBER = 1 <br> SALARY = U$ 4100.00
 6 <br> 145 <br> 15.55 | NUMBER = 6 <br> SALARY = U$ 2254.75
+
+
+```javascript
+let valor1 = parseInt(gets());
+let valor2 = parseInt(gets());
+let valor3 = parseFloat(gets());
+
+let salary = parseFloat(valor2 * valor3).toFixed(2); // Digite aqui o calculo do salário
+
+console.log("NUMBER = " + valor1);
+console.log("SALARY = U$ " + salary);
+```

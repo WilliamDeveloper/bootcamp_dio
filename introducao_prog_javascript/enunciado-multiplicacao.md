@@ -17,3 +17,15 @@ Exemplos de Entrada	| Exemplos de Saída
 3  <br>  9   | PROD = 27
 -30 <br> 10 | PROD = -300
 0 <br> 9 | PROD = 0
+
+
+```javascript
+let valor1 = parseInt(gets());
+let valor2 = parseInt(gets());
+
+let total = 0; 
+total = valor1 * valor2;
+
+
+console.log("PROD = " + total);
+```
