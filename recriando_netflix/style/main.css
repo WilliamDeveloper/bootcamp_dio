@@ -1,3 +1,44 @@
+/* declarar variaveis */
+:root{
+  --vermelho: #e50914;
+  --preta: #141414;
+  --cinza: #AAA;
+  --branco:#fff;
+}
+
+/* reset css */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 body{
-  background-color:blue;
+  background: var(--preta);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+header .logo{
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: 'Arial Black',Times;
+  font-size: 40px;
+}
+
+header nav a{
+  text-decoration: none;
+  color:var(--cinza);
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color:var(--branco);
 }
