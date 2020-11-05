@@ -11,3 +11,6 @@ Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com co
 
 # atalhos uteis vs.code
 - `alt+shift+arrow_down` - copia a linha inteira para linha de baixo
+
+# links usados
+- https://www.themoviedb.org/tv/60735-the-flash?language=pt-BR
