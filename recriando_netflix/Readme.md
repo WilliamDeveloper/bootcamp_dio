@@ -14,3 +14,4 @@ Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com co
 
 # links usados
 - https://www.themoviedb.org/tv/60735-the-flash?language=pt-BR
+- https://fontawesome.com/
