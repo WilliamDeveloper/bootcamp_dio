@@ -8,3 +8,6 @@ Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com co
 - auto rename tag
 - live server
 - Auto Close Tag
+
+# atalhos uteis vs.code
+- `alt+shift+arrow_down` - copia a linha inteira para linha de baixo
