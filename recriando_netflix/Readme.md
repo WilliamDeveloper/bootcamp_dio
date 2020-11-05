@@ -7,3 +7,4 @@ Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com co
 - dracula oficial
 - auto rename tag
 - live server
+- Auto Close Tag
