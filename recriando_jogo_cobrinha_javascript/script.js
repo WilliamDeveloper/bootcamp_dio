@@ -3,6 +3,12 @@ const tecla_seta_baixo_38=38;
 const tecla_seta_esquerda_39=39;
 const tecla_seta_cima_40=40;
 
+const direcao_right_direita = 'right';
+const direcao_left_esquerda = 'left';
+const direcao_down_baixo = 'down';
+const direcao_up_cima = 'up';
+
+
 let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d");
 let box = 32;
@@ -13,7 +19,7 @@ snake[0] = {
 };
 
 let score = 0;
-let direction = 'right';
+let direction = direcao_right_direita;
 
 function criarBG(){
   context.fillStyle = "green";
@@ -41,6 +47,12 @@ function update(event){
 }
 
 function iniciarJogo(){
+
+  if(snake[0].x > 15 * box && direction == "right") snake[0].x = 0
+  if(snake[0].x < 0 && direction == "left") snake[0].x = 16 * box;
+  if(snake[0].y > 15 * box && direction == "down") snake[0].y = 0;
+  if(snake[0].y < 0 && direction == "up") snake[0].y = 16 * box;
+
   criarBG();
   criarCobrinha();
 
@@ -65,7 +77,4 @@ function iniciarJogo(){
 }
 
 
-
 let jogo = setInterval(iniciarJogo,100);
-
-// iniciarJogo();
