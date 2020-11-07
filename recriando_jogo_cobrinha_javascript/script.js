@@ -101,5 +101,9 @@ function iniciarJogo(){
 
 }
 
-
 let jogo = setInterval(iniciarJogo,100);
+
+let reset = document.querySelector('#reiniciar_jogo');
+reset.addEventListener('click', function(){
+  location.reload();
+});
