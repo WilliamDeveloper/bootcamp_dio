@@ -1,3 +1,8 @@
+const tecla_seta_direita_37=37;
+const tecla_seta_baixo_38=38;
+const tecla_seta_esquerda_39=39;
+const tecla_seta_cima_40=40;
+
 let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d");
 let box = 32;
@@ -21,6 +26,19 @@ function criarCobrinha(){
   }
 }
 
+document.addEventListener('keydown',update);
+
+function update(event){
+  
+  if(event.keyCode == tecla_seta_direita_37 && direction != "right") direction = 'left';
+  if(event.keyCode == tecla_seta_baixo_38 && direction != "down") direction = 'up';  
+  if(event.keyCode == tecla_seta_esquerda_39 && direction != "left") direction = 'right';
+  if(event.keyCode == tecla_seta_cima_40 && direction != "up") direction = 'down';
+
+  console.log('direction ',direction);
+
+}
+
 function iniciarJogo(){
   criarBG();
   criarCobrinha();
@@ -31,7 +49,7 @@ function iniciarJogo(){
   if( direction == 'right') snakeX += box;
   if( direction == 'left') snakeX -= box;
   if( direction == 'up') snakeY -= box;
-  if( direction == 'down') snakey += box;
+  if( direction == 'down') snakeY += box;
 
   snake.pop();
   
@@ -40,10 +58,12 @@ function iniciarJogo(){
     y: snakeY
   }
 
-  // snake.unshift(newHead);
-  snake.push(newHead);
+  snake.unshift(newHead);
+  // snake.push(newHead);
 
 }
+
+
 
 let jogo = setInterval(iniciarJogo,100);
 
