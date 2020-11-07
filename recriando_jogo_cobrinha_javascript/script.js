@@ -71,8 +71,8 @@ function iniciarJogo(){
     y: snakeY
   }
 
-  snake.unshift(newHead);
-  // snake.push(newHead);
+  // snake.unshift(newHead);
+  snake.push(newHead);
 
 }
 
