@@ -15,11 +15,10 @@ Exemplo de Entrada	| Exemplo de Saída
 
 
 ```
-let line = gets().split(" ");
-let A = parseInt(line[0]);
-let B = parseInt(line[1]);
-
-let total = 0;
-total = A + B;
-console.log("X = " + total);
+let valor = parseInt(gets())
+for(var i = 1; i <= valor; i++){
+    if(i % 2 == 0){
+        console.log(i);
+    }
+}
 ```
