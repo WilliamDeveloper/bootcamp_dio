@@ -13,3 +13,15 @@ Exemplo de Entrada	|Exemplo de Saída
 500 <BR> 35.0 | 14.286 km/l
 2254 <BR> 124.4 | 18.119 km/l
 4554 <BR> 464.6 | 9.802 km/l
+
+
+
+```
+let line = gets().split(" ");
+let A = parseInt(line[0]);
+let B = parseInt(line[1]);
+
+let total = 0;
+total = A + B;
+console.log("X = " + total);
+```

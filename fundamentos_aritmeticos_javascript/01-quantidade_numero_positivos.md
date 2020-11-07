@@ -11,3 +11,14 @@ Exiba uma mensagem dizendo quantos valores positivos foram lidos assim como é ex
 Exemplo de Entrada	| Exemplo de Saída
 ---|---
 7<br> -5 <br> 6 <br> -3.4 <br> 4.6 <br> 12 | 4 valores positivos
+
+
+```
+let line = gets().split(" ");
+let A = parseInt(line[0]);
+let B = parseInt(line[1]);
+
+let total = 0;
+total = A + B;
+console.log("X = " + total);
+```

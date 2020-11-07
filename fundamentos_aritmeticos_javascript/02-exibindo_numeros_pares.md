@@ -11,3 +11,15 @@ Exiba todos os números pares até o valor de entrada, sendo um em cada linha.
 Exemplo de Entrada	| Exemplo de Saída
 ---|---
 6 |  2 <br> 4 <br> 6 
+
+
+
+```
+let line = gets().split(" ");
+let A = parseInt(line[0]);
+let B = parseInt(line[1]);
+
+let total = 0;
+total = A + B;
+console.log("X = " + total);
+```

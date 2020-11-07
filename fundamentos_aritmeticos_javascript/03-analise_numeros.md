@@ -11,3 +11,14 @@ Exiba a mensagem conforme o exemplo de saída abaixo, sendo uma mensagem por linh
 Exemplo de Entrada | Exemplo de Saída
 ---|---
 -5 <br> 0 <br> -3 <br> -4 <br> 12 |  3 valor(es) par(es) <br> 2 valor(es) impar(es) <br> 1 valor(es) positivo(s) <br> 3 valor(es) negativo(s)
+
+
+```
+let line = gets().split(" ");
+let A = parseInt(line[0]);
+let B = parseInt(line[1]);
+
+let total = 0;
+total = A + B;
+console.log("X = " + total);
+```
