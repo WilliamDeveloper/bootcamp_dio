@@ -1,13 +1,15 @@
-# Desafio
-Crie um programa que leia 6 valores. Você poderá receber valores negativos e/ou positivos como entrada, devendo desconsiderar os valores nulos. Em seguida, apresente a quantidade de valores positivos digitados.
+#Desafio
+Você deve calcular o consumo médio de um automóvel onde será informada a distância total percorrida (em Km) e o total de combustível consumido (em litros).
 
-# Entrada
-Você receberá seis valores, negativos e/ou positivos.
+#Entrada
+Você receberá dois valores: um valor inteiro X com a distância total percorrida (em Km), e um valor real Y que representa o total de combustível consumido, com um dígito após o ponto decimal.
 
-# Saída
-Exiba uma mensagem dizendo quantos valores positivos foram lidos assim como é exibido abaixo no exemplo de saída. Não esqueça da mensagem "valores positivos" ao final.
+#Saída
+Exiba o valor que representa o consumo médio do automóvel (3 casas após a vírgula), incluindo no final a mensagem "km/l".
 
  
-Exemplo de Entrada	| Exemplo de Saída
+Exemplo de Entrada	|Exemplo de Saída
 ---|---
-7<br> -5 <br> 6 <br> -3.4 <br> 4.6 <br> 12 | 4 valores positivos
+500 <BR> 35.0 | 14.286 km/l
+2254 <BR> 124.4 | 18.119 km/l
+4554 <BR> 464.6 | 9.802 km/l
