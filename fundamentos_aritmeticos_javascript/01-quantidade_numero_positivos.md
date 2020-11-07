@@ -1,5 +1,9 @@
 # Desafio
-Crie um programa que leia 6 valores. Você poderá receber valores negativos e/ou positivos como entrada, devendo desconsiderar os valores nulos. Em seguida, apresente a quantidade de valores positivos digitados.
+Crie um programa que leia 6 valores. 
+
+Você poderá receber valores negativos e/ou positivos como entrada, devendo desconsiderar os valores nulos. 
+
+Em seguida, apresente a quantidade de valores positivos digitados.
 
 # Entrada
 Você receberá seis valores, negativos e/ou positivos.
@@ -14,11 +18,18 @@ Exemplo de Entrada	| Exemplo de Saída
 
 
 ```
-let line = gets().split(" ");
-let A = parseInt(line[0]);
-let B = parseInt(line[1]);
+let lista = []
+let cont_positivo = 0;
 
-let total = 0;
-total = A + B;
-console.log("X = " + total);
+for(var i = 0; i < 6; i++){
+    let valor = parseInt(gets())
+    lista.push(valor);
+    
+    if(valor > 0){
+        cont_positivo ++;
+    }
+}
+
+console.log(cont_positivo + " valores positivos");
+
 ```
