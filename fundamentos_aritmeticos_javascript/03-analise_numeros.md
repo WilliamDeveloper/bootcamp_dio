@@ -14,11 +14,34 @@ Exemplo de Entrada | Exemplo de Saída
 
 
 ```
-let line = gets().split(" ");
-let A = parseInt(line[0]);
-let B = parseInt(line[1]);
+let lista = []
+let cont_positivo = 0;
+let cont_negativo = 0;
+let cont_par = 0;
+let cont_impar = 0;
 
-let total = 0;
-total = A + B;
-console.log("X = " + total);
+for(var i = 0; i < 5; i++){
+    let valor = parseInt(gets())
+    lista.push(valor);
+    
+    if(valor > 0){
+        cont_positivo ++;
+    }
+    
+    if(valor < 0){
+        cont_negativo ++;
+    }
+    
+    if( valor % 2 == 0){
+        cont_par ++;
+    }else{
+        cont_impar++;
+    }
+}
+
+console.log(cont_par+' valor(es) par(es)'); 
+console.log(cont_impar+' valor(es) impar(es)'); 
+console.log(cont_positivo+' valor(es) positivo(s)');
+console.log(cont_negativo+' valor(es) negativo(s)');
+
 ```
