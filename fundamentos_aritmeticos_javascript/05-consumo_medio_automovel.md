@@ -17,11 +17,10 @@ Exemplo de Entrada	|Exemplo de Saída
 
 
 ```
-let line = gets().split(" ");
-let A = parseInt(line[0]);
-let B = parseInt(line[1]);
+let X = parseInt(gets());
+let Y = parseFloat(gets());
 
-let total = 0;
-total = A + B;
-console.log("X = " + total);
+consumo_medio = parseFloat( X / Y ).toFixed(3)
+console.log(consumo_medio+' km/l'); 
+
 ```
