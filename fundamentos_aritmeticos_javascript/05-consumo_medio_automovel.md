@@ -20,7 +20,7 @@ Exemplo de Entrada	|Exemplo de Saída
 let X = parseInt(gets());
 let Y = parseFloat(gets());
 
-consumo_medio = parseFloat( X / Y ).toFixed(3)
+let consumo_medio = parseFloat( X / Y ).toFixed(3)
 console.log(consumo_medio+' km/l'); 
 
 ```
