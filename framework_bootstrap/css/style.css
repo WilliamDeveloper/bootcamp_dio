@@ -4,9 +4,18 @@
 
 .quemsomos{
   background-color:yellow;
+  
 }
 
 .margin{
   margin-top:30px;
   padding-top:30px;
+}
+
+.quemsomos img{
+  margin: 50px;  
+}
+
+.parceiros{
+  background-color:blueviolet
 }
