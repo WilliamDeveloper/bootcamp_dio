@@ -1,3 +1,7 @@
+body{
+  margin-bottom: 100px;
+}
+
 .navbar{
   background-color:Red
 }
@@ -19,3 +23,18 @@
 .parceiros{
   background-color:blueviolet
 }
+
+.servicos{
+  background-color: yellow;
+  
+}
+
+img{
+  margin-bottom: 50px;  
+}
+
+.bg-footer{
+  background-color: gray;
+  padding:50px
+}
+
