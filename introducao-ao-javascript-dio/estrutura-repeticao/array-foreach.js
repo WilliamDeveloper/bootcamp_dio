@@ -1,4 +1,4 @@
-const persons = [
+const lista_pessoas = [
   {
     name: "Guilherme",
     age: 26,
@@ -15,3 +15,8 @@ const persons = [
     gender: gender.WOMAN
   }
 ];
+
+// Iterar os itens do array
+lista_pessoas.forEach(person => {
+  console.log(`Nome: ${person.name}`);
+});
