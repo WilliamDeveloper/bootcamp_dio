@@ -15,3 +15,4 @@
 
 
 const lista_estudante_filtrada = lista_estudante.filter(student => student.grade >= 7);
+console.log("# ",lista_estudante_filtrada);
