@@ -1,3 +1,6 @@
+
+//um array eh um objeto
+
 const users = ["Guilherme", "Pedro", "Jennifer"];
 
 const gender = {
