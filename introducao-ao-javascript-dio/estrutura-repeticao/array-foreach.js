@@ -2,17 +2,17 @@ const lista_pessoas = [
   {
     name: "Guilherme",
     age: 26,
-    gender: gender.MAN
+    gender: "M"
   },
   {
     name: "Pedro",
     age: 43,
-    gender: gender.MAN
+    gender: "M"
   },
   {
     name: "Jennifer",
     age: 18,
-    gender: gender.WOMAN
+    gender: "F"
   }
 ];
 
