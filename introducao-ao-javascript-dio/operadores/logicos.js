@@ -24,3 +24,49 @@ if(name2){   }
 var name3="tem valor";
 resposta_bool = !!name3;
 if(name3){  }
+
+
+
+------
+
+    var number=5;
+if(number){ // vai dar true se for um numero >=0
+  blau();
+}
+
+
+-------------------------------------
+//nos casos abaixo nao faria o if pq daria false
+var number;
+if(number){ // 'undefined'  == false
+  blau();
+}
+
+var number=0;
+if(number){ // 0 = false e number maior q zero true
+  blau();
+}
+
+
+
+
+
+var palavra;
+if(palavra){  // 'undefined'  == false
+  blau();
+}
+
+
+var palavra = "";
+if(palavra){  // ""  == false
+  blau();
+}
+
+var palavra = "valor";
+if(palavra){  // ""valor"; "  == true
+  blau();
+}
+
+
+//equivaliente ao ultimo if
+var valor_boleano = !!palavra;
