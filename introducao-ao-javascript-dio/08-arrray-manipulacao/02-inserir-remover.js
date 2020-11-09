@@ -9,7 +9,7 @@ lista.push('laranja');
 //[fim] remover ultimo elemento da lista
 lista.pop();
 
-
+//--------------------------------------------------------
 
 lista = ['manga','pera','pepino'];
 
