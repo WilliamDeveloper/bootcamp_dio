@@ -20,6 +20,6 @@ Exemplo de Entrada	| Exemplo de Saída
 
 ```javascript
 let quilometros = parseInt(gets());
-let minutos = quilometros * 1; // Digite aqui o calculo dos minutos
+let minutos = quilometros * 2; // Digite aqui o calculo dos minutos
 console.log(minutos + " minutos");
 ```
