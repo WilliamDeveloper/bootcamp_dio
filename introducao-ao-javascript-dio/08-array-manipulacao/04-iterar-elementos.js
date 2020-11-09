@@ -99,3 +99,9 @@ console.log(lista_1)
 var lista_1 = [1,2,3,4,5,6,7,8,9];
 var resultado = lista_1.join(';');
 console.log(resultado);
+
+
+// reduzir o array a um numero
+var lista_1 = [1,2,3,4,5,6,7,8,9];
+var resultado = lista_1.reduce( (total, value) => total += value, 0 );
+console.log(resultado);
