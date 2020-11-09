@@ -26,6 +26,11 @@ var lista_1 = [1,2,3,4,5,6,7,8,9];
 var lista_maiores_q_5 = lista_1.filter( value =>  value > 5);
 console.log(lista_maiores_q_5)
 
+// retorna o primeiro index que o valor pode ser encontrado no array
+var lista_1 = [1,2,3,4,5,6,7,8,9];
+var firstIndexOfItem = lista_1.indexOf(4);
+console.log(firstIndexOfItem);
+
 
 
 
