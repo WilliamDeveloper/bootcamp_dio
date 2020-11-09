@@ -11,3 +11,10 @@ Imprima a saída conforme o exemplo fornecido.
 Exemplo de Entrada	|Exemplo de Saída
 ---|---
 5 |1 1 1<br>2 4 8<br>3 9 27<br>4 16 64<br>5 25 125
+
+
+```javascript
+// a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
+let R = parseInt(gets());
+let V = parseInt(gets());
+```
