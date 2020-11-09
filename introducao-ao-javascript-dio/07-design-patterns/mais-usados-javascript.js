@@ -6,4 +6,6 @@
 // decorator
     //exempolo @readonly
 // observer
+    // padrao q notifica algo para ser observado
 // module
+    //exemplo
