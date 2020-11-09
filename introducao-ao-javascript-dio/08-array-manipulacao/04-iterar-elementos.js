@@ -68,4 +68,4 @@ console.log(first_index_greater_than_5)
 
 var lista_1 = [1,2,3,4,5,6,7,8,9];
 var existe_5_na_lista = lista_1.includes(5);
-console.log(existe_5_na_lista)
+console.log(existe_5_na_lista) // true
