@@ -22,7 +22,7 @@ var lista_2 = lista_1.flat(); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 
-
+//usando iterator
 var lista_1 = [1,2,3,4,5,6,7,8,9];
 var lista_1_iterator = lista_1.keys();
 
@@ -30,3 +30,8 @@ lista_1_iterator.next()// { value : 0 , done : false }
 lista_1_iterator.next()// { value : 1 , done : false }
 lista_1_iterator.next()// { value : 2 , done : false }
 lista_1_iterator.next()// { value : 3 , done : true }
+
+
+var lista_1 = [1,2,3,4,5,6,7,8,9];
+var first_number_greater_than_5 = lista_1.find( value =>  value > 5);
+console.log(first_number_greater_than_5)
