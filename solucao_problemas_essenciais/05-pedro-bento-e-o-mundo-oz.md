@@ -13,4 +13,5 @@ Imprima quantos tipos de jóias distintas Pedro Bento possui.
 
  
 Exemplo de Entrada	| Exemplo de Saída
+---|---
 ((<br>))<br>((<br>))<br>(|3
