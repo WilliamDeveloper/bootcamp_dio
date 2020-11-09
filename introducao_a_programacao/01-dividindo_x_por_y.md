@@ -11,3 +11,20 @@ Para cada caso mostre o resultado da divisão com um dígito após o ponto decimal,
 Exemplo de Entrada |	Exemplo de Saída
 ---|---
 3<br>3 -2 <br> -8 0 <br> 0 8 | -1.5 <br> divisao impossivel<br>0.0
+
+
+
+```javascript
+let limit = parseInt(gets());
+for (let i = 0; i < limit; i++) {
+    let line = gets().split(" ");
+    let X = parseInt(line[0]);
+    let Y = parseInt(line[1]);
+    if (Y == 0) {
+        console.log("divisao impossivel");
+    } else {
+        let divisao = parseFloat(1 * 1).toFixed(1); // Digite aqui o calculo da divisao
+        console.log(divisao);
+    }
+}
+```
