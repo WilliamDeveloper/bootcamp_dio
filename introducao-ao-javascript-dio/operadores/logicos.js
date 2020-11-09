@@ -11,7 +11,7 @@ var a = false || false;  // false
 var n1 = !true; //false
 var n2 = !false; //true
 var n3 = !"gato"; //false
-var n4 = !"gato"; //false
+var n4 = !!"gato"; //true casta para saber se tem valor
 
 //cast double negation
 
