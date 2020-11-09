@@ -88,3 +88,6 @@ var lista_1 = [
 ];
 lista_1.sort( (current, next) => current.age - next.age)
 console.log(lista_1)
+
+lista_1.reverse();
+console.log(lista_1)
