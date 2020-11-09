@@ -29,13 +29,13 @@
 
 //------------------------------------------
 
-//operador exponenciacao
+//operador exponenciacao **
 // 2 **3
 // 10** -1
 
 //------------------------------------------
 
-//operador de agrupamento
+//operador de agrupamento ()
 // 2 * ( 3 + 2)
 
 //------------------------------------------
