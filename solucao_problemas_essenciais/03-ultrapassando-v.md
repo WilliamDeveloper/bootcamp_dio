@@ -13,3 +13,10 @@ Imprima uma linha com um número inteiro que representa a quantidade de números i
 Exemplo de Entrada	|Exemplo de Saída
 ---|---
 3<br>1<br>20|5
+
+
+```javascript
+// a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
+let R = parseInt(gets());
+let V = parseInt(gets());
+```
