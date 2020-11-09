@@ -23,5 +23,6 @@ console.log(lista_5);
 var lista_5 = [1,2,3,4,5,6,7,8,9];
 
 // posicao que quero adicionar, quantos vai remover, item q vai ser adicionado
-lista_5.splice(0,0,'teste'); // adicionou elemento no array
+lista_5.splice(0,0,'teste1'); // adicionou elemento no array
+lista_5.splice(0,0,'teste2','teste3'); // adicionou elemento no array
 console.log(lista_5);
