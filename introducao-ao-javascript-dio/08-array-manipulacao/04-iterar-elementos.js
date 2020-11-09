@@ -91,3 +91,11 @@ console.log(lista_1)
 
 lista_1.reverse();
 console.log(lista_1)
+
+
+
+//--------------------------------------
+// transformar
+var lista_1 = [1,2,3,4,5,6,7,8,9];
+var resultado = lista_1.join(';');
+console.log(resultado);
