@@ -18,3 +18,10 @@ Para cada caso de teste, imprima uma única linha indicando o nível de velocidade
 Exemplo de Entrada	|Exemplo de Saída
 ---|---
 10<br>10 10 10 10 15 18 20 15 11 10<br>10<br>1 5 2 9 5 5 8 4 4 3<br>10<br>19 9 1 4 5 8 6 11 9 7|3<br>1<br>2
+
+
+```javascript
+// a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
+let R = parseInt(gets());
+let V = parseInt(gets());
+```
