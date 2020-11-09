@@ -76,3 +76,15 @@ console.log(existe_5_na_lista) // true
 var lista_1 = [1,2,3,4,5,6,7,8,9];
 var existe_item_par_na_lista = lista_1.some(value => value % 2 === 0);
 console.log(existe_item_par_na_lista) // true
+
+
+//--------------------------------------
+// ordenar
+var lista_1 = [
+    {nome:'will5', age:18},
+    {nome:'will2', age:46},
+    {nome:'will3', age:35},
+    {nome:'will1', age:17},
+];
+lista_1.sort( (current, next) => current.age - next.age)
+console.log(lista_1)
