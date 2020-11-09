@@ -32,6 +32,11 @@ var firstIndexOfItem = lista_1.indexOf(4);
 console.log(firstIndexOfItem);
 
 
+// retorna o ultimo index que o valor pode ser encontrado no array
+var lista_1 = [1,2,3,4,5,6,7,8,9];
+var lastIndexOfItem = lista_1.lastIndexOf(4);
+console.log(lastIndexOfItem);
+
 
 
 //usando iterator
