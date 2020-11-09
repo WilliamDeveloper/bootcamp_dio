@@ -21,6 +21,13 @@ var lista_2 = lista_1.flat(); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 
+// cria a lista de todos elementos que satisfaça a condicao
+var lista_1 = [1,2,3,4,5,6,7,8,9];
+var lista_maiores_q_5 = lista_1.filter( value =>  value > 5);
+console.log(lista_maiores_q_5)
+
+
+
 
 //usando iterator
 var lista_1 = [1,2,3,4,5,6,7,8,9];
