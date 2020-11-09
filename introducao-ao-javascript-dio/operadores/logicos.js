@@ -48,8 +48,17 @@ if(number){ // 0 = false e number maior q zero true
 }
 
 
-
-
+//-------------------------------------
+//retorna true
+" "
+1
+['teste']
+" tem valor"
+//retorna false
+""
+0
+[]
+//-------------------------------------
 
 var palavra;
 if(palavra){  // 'undefined'  == false
