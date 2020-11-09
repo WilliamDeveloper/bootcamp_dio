@@ -12,3 +12,9 @@ Quando duas notas válidas forem lidas, deve ser impressa a mensagem "media = " s
 Exemplo de Entrada	|Exemplo de Saída
 ---|---
 -3.5<br>3.5<br>11.0<br>10.0|nota invalida<br>nota invalida<br>media = 6.75
+
+```javascript
+// a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
+let R = parseInt(gets());
+let V = parseInt(gets());
+```
