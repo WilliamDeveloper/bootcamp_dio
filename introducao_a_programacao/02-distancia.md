@@ -16,3 +16,10 @@ Exemplo de Entrada	| Exemplo de Saída
 ---|---
 30  |  60 minutos
 110 | 220 minutos
+
+
+```javascript
+let quilometros = parseInt(gets());
+let minutos = quilometros * 1; // Digite aqui o calculo dos minutos
+console.log(minutos + " minutos");
+```
