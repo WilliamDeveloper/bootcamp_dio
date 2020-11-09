@@ -54,6 +54,9 @@ if(number){ // 0 = false e number maior q zero true
 1
 ['teste']
 " tem valor"
+!!"tem valor"
+
+
 //retorna false
 ""
 0
