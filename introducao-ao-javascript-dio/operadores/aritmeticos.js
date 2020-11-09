@@ -4,16 +4,14 @@
 // operando1 operador operando2
 //1 + 2
 
-//operador unario
-// operando1 operador
-// operador operando1
-
 // operador binario . retorna o inteiro restante da divisao dos dois operandos
 //12 % 5 // retorna 2
 
 //------------------------------------------
-
-//incremento e decremento
+// utilita operador unario
+// operando1 operador
+// operador operando1
+//incremento ++ e decremento --
 // ++x
 // x++
 
@@ -22,7 +20,7 @@
 
 //------------------------------------------
 
-//negacao e adicao
+//negacao - e adicao +
 // -3      //retorna 3
 // +"3"   //retorna 3
 // +true   //retorna 1
