@@ -67,20 +67,19 @@ let divisor = parseInt(line[1]);
 let numero_a = numero;
 let divisor_b = divisor;
 
-console.log(numero_a,' # ',divisor_b)
+//console.log(numero_a,' # ',divisor_b)
 
 let quociente_q = parseInt(numero_a/divisor_b)
 let resto_r = numero_a % divisor_b
 
-console.log(quociente_q,' # ',resto_r,' # ', numero_a,' # ', quociente_q)
+//console.log(quociente_q,' # ',resto_r,' # ', numero_a,' # ', quociente_q)
 
 if(resto_r < 0){
-    resto_r = resto_r - divisor_b  
-    numero_a = Math.abs(divisor_b) * quociente_q + resto_r
-    quociente_q =  parseInt( (numero_a - resto_r)  / divisor_b)
+    resto_r = resto_r - divisor_b
+    quociente_q =  (numero_a - resto_r)  / divisor_b
 }
 
-console.log(quociente_q,' # ',resto_r,' # ', numero_a,' # ', quociente_q,' # ', divisor_b)
+//console.log(quociente_q,' # ',resto_r,' # ', numero_a,' # ', quociente_q,' # ', divisor_b)
 
 let resposta = quociente_q+' '+resto_r
 
