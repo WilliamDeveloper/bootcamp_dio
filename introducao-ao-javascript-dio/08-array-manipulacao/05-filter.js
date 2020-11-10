@@ -27,6 +27,17 @@ var newPets = pets.filter( (pet) =>{
     return pet.age < 5;
 })
 
+//ou
+
+function funcao_logica(numero) {
+     return numero < 5;
+}
+
+var newPets = pets.filter( (pet) =>{
+    return funcao_logica(pet.age);
+})
+
+
 //equivalente
 //var newPets = pets.filter( ({age}) =>{  return age < 5; })
 
