@@ -22,40 +22,43 @@ Exemplos de Entrada	|Exemplos de Saída
 
 
 ```javascript
-let salario = parseFloat(gets());
-let taxa_imposto_renda=0
-let diferenca=0
-let acum = 0
 
-if(salario >= 2000.00){
-    diferenca=salario - 2000.00
-    acum += 1000.00 * (8/100)
+let salario = parseFloat(gets());
+
+let taxa_imposto_renda=0
+let is_isento = false;
+
+var lista_fatia_faixas =[]
+
+if( salario > 3000.00){
+    lista_fatia_faixas.push(1000.00 * (8/100))
     
-    if(diferenca > 0 && diferenca <= 3000.00){
-        acum += diferenca * (18/100)
+    if( salario > 4500.00){
+        lista_fatia_faixas.push(1500.00 * (18/100))
+        lista_fatia_faixas.push( (salario - 4500.00) * (28/100))
     }else{
-        
+        lista_fatia_faixas.push( (salario - 3000.00) * (18/100))
+    }
+}else{
+    lista_fatia_faixas.push( (salario - 2000.00) * (8/100))
+    
+    if(salario <= 2000.00){
+        is_isento = true;
     }
 }
 
 
+let total_desconto = 0
 
-
-if (salario <= 2000.00){
-    taxa_imposto_renda = 0    
-}else if(salario <= 3000.00){
-    taxa_imposto_renda = 8/100
-}else if(salario <= 4500.00){
-    taxa_imposto_renda = 18/100
-}else{
-    taxa_imposto_renda = 28/100
+for(var i = 0; i < lista_fatia_faixas.length; i++) {
+  total_desconto += lista_fatia_faixas.get(i)
 }
 
 let resposta =''
-if(taxa_imposto_renda === 0){
+if(is_isento){
     resposta='Isento'
 }else{
-    resposta='R$ '+ (1000.00*taxa_imposto_renda+ (2.00* (18/100)))
+    resposta='R$ '+ total_desconto
 }
 
 console.log(resposta);
