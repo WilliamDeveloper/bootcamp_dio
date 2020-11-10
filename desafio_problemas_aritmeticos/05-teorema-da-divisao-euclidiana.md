@@ -60,12 +60,9 @@ let quociente_q = parseInt(numero_a/divisor_b)
 let resto_r = numero_a % divisor_b
 
 if(resto_r < 0){
-    resto_r = resto_r - divisor_b
-    
+    resto_r = resto_r - Math.abs(divisor_b)    
     numero_a = divisor_b * quociente_q + resto_r
-
     quociente_q = ( numero_a - resto_r ) / divisor_b
-
 }
 
 let resposta = quociente_q+' '+resto_r
