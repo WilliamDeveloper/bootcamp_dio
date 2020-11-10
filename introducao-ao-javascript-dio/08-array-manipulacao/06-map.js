@@ -51,3 +51,9 @@ var pets = [
 ]
 
 console.log(pets)
+
+var novoMap = pets.map( (pet) => {
+    return pet.name;
+})
+
+console.log(novoMap)
