@@ -34,9 +34,9 @@ if( salario > 3000.00){
     
     if( salario > 4500.00){
         lista_fatia_faixas.push(1500.00 * (18/100))
-        lista_fatia_faixas.push( (salario - 4500.00) * (28/100))
+        lista_fatia_faixas.push( (salario - 4500.00) * (28/100) )
     }else{
-        lista_fatia_faixas.push( (salario - 3000.00) * (18/100))
+        lista_fatia_faixas.push( (salario - 3000.00) * (18/100) )
     }
 }else{   
     
@@ -58,7 +58,7 @@ let resposta =''
 if(is_isento){
     resposta='Isento'
 }else{
-    resposta='R$ '+ total_desconto
+    resposta='R$ '+ total_desconto.toFixed(2)
 }
 
 console.log(resposta);
