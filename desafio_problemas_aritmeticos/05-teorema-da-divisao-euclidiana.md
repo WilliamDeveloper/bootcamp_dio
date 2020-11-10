@@ -31,3 +31,18 @@ Exemplos de Entrada |	Exemplos de Saída
 7 3|2 1
 7 -3|-2 1
 -7 -3|3 2
+
+
+
+
+```javascript
+let line = gets().split(" ");
+let numero = parseInt(line[0]);
+let divisor = parseInt(line[1]);
+
+let resultado = parseInt(numero/divisor)
+let resto = numero % divisor
+let resposta = resultado+' '+resto
+
+console.log(resposta);
+```
