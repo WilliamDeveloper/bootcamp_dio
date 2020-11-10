@@ -11,7 +11,9 @@ são respectivamente os únicos inteiros q e r tais que:
 
 0 <= r < |b|
 
-Se r < 0: r = r - |b|
+Se r < 0: 
+
+r = r - |b|
 
 a = b x q + r
 
