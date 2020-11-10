@@ -25,7 +25,6 @@ Exemplos de Entrada	|Exemplos de Saída
 
 let salario = parseFloat(gets());
 
-let taxa_imposto_renda=0
 let is_isento = false;
 
 var lista_fatia_faixas =[]
