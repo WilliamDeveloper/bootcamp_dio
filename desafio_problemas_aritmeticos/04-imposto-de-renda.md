@@ -20,3 +20,43 @@ Exemplos de Entrada	|Exemplos de Saída
 1701.12|Isento
 4520.00|R$ 355.60
 
+
+```javascript
+let salario = parseFloat(gets());
+let taxa_imposto_renda=0
+let diferenca=0
+let acum = 0
+
+if(salario >= 2000.00){
+    diferenca=salario - 2000.00
+    acum += 1000.00 * (8/100)
+    
+    if(diferenca > 0 && diferenca <= 3000.00){
+        acum += diferenca * (18/100)
+    }else{
+        
+    }
+}
+
+
+
+
+if (salario <= 2000.00){
+    taxa_imposto_renda = 0    
+}else if(salario <= 3000.00){
+    taxa_imposto_renda = 8/100
+}else if(salario <= 4500.00){
+    taxa_imposto_renda = 18/100
+}else{
+    taxa_imposto_renda = 28/100
+}
+
+let resposta =''
+if(taxa_imposto_renda === 0){
+    resposta='Isento'
+}else{
+    resposta='R$ '+ (1000.00*taxa_imposto_renda+ (2.00* (18/100)))
+}
+
+console.log(resposta);
+```
