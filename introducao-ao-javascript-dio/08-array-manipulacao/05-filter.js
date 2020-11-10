@@ -27,5 +27,8 @@ var newPets = pets.filter( (pet) =>{
     return pet.age < 5;
 })
 
+//equivalente
+//var newPets = pets.filter( ({age}) =>{  return age < 5; })
+
 console.log(newPets);
 console.log(pets);
