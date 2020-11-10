@@ -76,8 +76,10 @@ let resto_r = numero_a % divisor_b
 
 if(resto_r < 0){
     resto_r = resto_r - divisor_b
-    quociente_q =  (numero_a - resto_r)  / divisor_b
+    
 }
+
+quociente_q =  (numero_a - resto_r)  / divisor_b
 
 //console.log(quociente_q,' # ',resto_r,' # ', numero_a,' # ', quociente_q,' # ', divisor_b)
 
