@@ -19,6 +19,6 @@ let line = gets().split(" ");
 let tempo_em_horas = parseInt(line[0]);
 let velocidade_media = parseInt(line[1]);
 
-let calculo = parseFloat(H / P).toFixed(3);
+let calculo = parseFloat(tempo_em_horas * velocidade_media / 12).toFixed(3);
 console.log(calculo);
 ```
