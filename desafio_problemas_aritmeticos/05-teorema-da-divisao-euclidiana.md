@@ -44,7 +44,18 @@ Exemplos de Entrada |	Exemplos de Saída
 7 -3|-2 1
 -7 -3|3 2
 
+````javascript
+let array = [-7,-3]
+let a = parseInt(array[0])
+let b = parseInt(array[1])
+let r = a % b;
+let q = (a - r) / b;
 
+r = r - b 
+q = ( a - r ) / b 
+
+console.log(q + " " + r);
+````
 
 
 ```javascript
@@ -61,13 +72,15 @@ console.log(numero_a,' # ',divisor_b)
 let quociente_q = parseInt(numero_a/divisor_b)
 let resto_r = numero_a % divisor_b
 
-console.log(quociente_q,' # ',resto_r)
+console.log(quociente_q,' # ',resto_r,' # ', numero_a,' # ', quociente_q)
 
 if(resto_r < 0){
     resto_r = resto_r - divisor_b  
-    numero_a = divisor_b * quociente_q + resto_r
-    quociente_q = ( numero_a - resto_r ) / divisor_b
+    numero_a = Math.abs(divisor_b) * quociente_q + resto_r
+    quociente_q =  parseInt( (numero_a - resto_r)  / divisor_b)
 }
+
+console.log(quociente_q,' # ',resto_r,' # ', numero_a,' # ', quociente_q,' # ', divisor_b)
 
 let resposta = quociente_q+' '+resto_r
 
