@@ -38,11 +38,12 @@ if( salario > 3000.00){
     }else{
         lista_fatia_faixas.push( (salario - 3000.00) * (18/100))
     }
-}else{
-    lista_fatia_faixas.push( (salario - 2000.00) * (8/100))
+}else{   
     
     if(salario <= 2000.00){
         is_isento = true;
+    }else{
+        lista_fatia_faixas.push( (salario - 2000.00) * (8/100))
     }
 }
 
