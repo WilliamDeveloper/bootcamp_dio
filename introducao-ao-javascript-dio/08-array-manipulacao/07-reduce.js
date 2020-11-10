@@ -58,3 +58,15 @@ var totalWeight = pets.reduce( (acum, pet) =>{
 }, { totalAge: 0, totalWeight:0 })
 
 console.log(totalWeight)
+
+
+//reduzindo para um inteiro acumulado
+var totalIdadeDosDogs = pets.reduce( (acum, pet) => {
+    console.log(`acum ${acum} pet ${pet.name}`)
+
+    if(pet.type ==='dog') return acum
+
+    return acum +pet.age
+},0);
+
+console.log(totalIdadeDosDogs)
