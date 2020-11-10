@@ -64,6 +64,7 @@ console.log(totalWeight)
 var totalIdadeDosDogs = pets.reduce( (acum, pet) => {
     console.log(`acum ${acum} pet ${pet.name}`)
 
+    // filtrando dentro do reduce
     if(pet.type ==='dog') return acum
 
     return acum +pet.age
