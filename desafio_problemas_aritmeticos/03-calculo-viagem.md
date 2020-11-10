@@ -12,3 +12,13 @@ Exemplo de Entrada	|Exemplo de Saída
 ---|---
 10 85|70.833
 22 67|122.833
+
+
+```javascript
+let line = gets().split(" ");
+let tempo_em_horas = parseInt(line[0]);
+let velocidade_media = parseInt(line[1]);
+
+let calculo = parseFloat(H / P).toFixed(3);
+console.log(calculo);
+```
