@@ -52,9 +52,23 @@ let line = gets().split(" ");
 let numero = parseInt(line[0]);
 let divisor = parseInt(line[1]);
 
-let resultado = parseInt(numero/divisor)
-let resto = numero % divisor
-let resposta = resultado+' '+resto
+
+let numero_a = numero;
+let divisor_b = divisor;
+
+let resultado_q = parseInt(numero_a/divisor_b)
+let resto_r = numero_a % divisor_b
+
+if(resto_r < 0){
+    resto_r = resto_r - divisor_b
+    
+    numero_a = divisor_b * resultado_q + resto_r
+
+    resultado_q = ( numero_a - resto_r ) / divisor_b
+
+}
+
+let resposta = resultado_q+' '+resto_r
 
 console.log(resposta);
 ```
