@@ -56,19 +56,19 @@ let divisor = parseInt(line[1]);
 let numero_a = numero;
 let divisor_b = divisor;
 
-let resultado_q = parseInt(numero_a/divisor_b)
+let quociente_q = parseInt(numero_a/divisor_b)
 let resto_r = numero_a % divisor_b
 
 if(resto_r < 0){
     resto_r = resto_r - divisor_b
     
-    numero_a = divisor_b * resultado_q + resto_r
+    numero_a = divisor_b * quociente_q + resto_r
 
-    resultado_q = ( numero_a - resto_r ) / divisor_b
+    quociente_q = ( numero_a - resto_r ) / divisor_b
 
 }
 
-let resposta = resultado_q+' '+resto_r
+let resposta = quociente_q+' '+resto_r
 
 console.log(resposta);
 ```
