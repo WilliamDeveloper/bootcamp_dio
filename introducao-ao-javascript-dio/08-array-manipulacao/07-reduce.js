@@ -40,9 +40,21 @@ var pets = [
 
 console.log(pets)
 
+//reduzindo para um inteiro acumulado
 var totalTodosAnimais = pets.reduce( (acum, pet) => {
     console.log(`acum ${acum} pet ${pet.name}`)
     return acum +pet.age
 },0)
 
 console.log(totalTodosAnimais)
+
+
+//reduzindo para um objeto acumulado
+var totalWeight = pets.reduce( (acum, pet) =>{
+    return {
+        totalAge: acum.totalAge + pet.age,
+        totalWeight: acum.totalWeight + pet.weight
+    }
+}, { totalAge: 0, totalWeight:0 })
+
+console.log(totalWeight)
