@@ -1,9 +1,13 @@
 #Desafio
-Você recebeu desafio de desenvolver um programa que calcule o quociente e o resto da divisão de dois números inteiros. 
+Você recebeu desafio de desenvolver um programa que calcule 
 
-Não se esqueça que o quociente 
+o quociente e o resto da divisão de dois números inteiros. 
 
-e o resto da divisão de um inteiro a por um inteiro não-nulo b são respectivamente os únicos inteiros q e r tais que:
+Não se esqueça que o quociente  e o resto da divisão 
+
+de um inteiro **a** por um inteiro não-nulo **b** 
+
+são respectivamente os únicos inteiros q e r tais que:
 
 0 <= r < |b|
 
@@ -13,7 +17,11 @@ a = b x q + r
 
 q = ( a - r ) / b
 
-Caso você não saiba, o teorema que garante a existência e a unicidade dos inteiros **q** e **r** é conhecido como 
+Caso você não saiba, o teorema que garante a existência
+ 
+ e a unicidade dos inteiros **q** e **r** 
+
+é conhecido como 
 
 **Teorema da Divisão Euclidiana** ou **Algoritmo da Divisão**.
 
@@ -23,7 +31,9 @@ Caso você não saiba, o teorema que garante a existência e a unicidade dos inteir
 A entrada é composta por dois números inteiros a e b (-1.000 <= a, b < 1.000).
 
 #Saída
-Imprima o quociente q seguido pelo resto r da divisão de a por b, considerando as regras apresentadas a cima.
+Imprima o quociente **q** seguido pelo resto **r** da divisão 
+
+de **a** por **b**, considerando as regras apresentadas a cima.
 
  
 Exemplos de Entrada |	Exemplos de Saída
