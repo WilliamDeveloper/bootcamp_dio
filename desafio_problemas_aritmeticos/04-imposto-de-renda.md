@@ -50,7 +50,7 @@ if( salario > 3000.00){
 let total_desconto = 0
 
 for(var i = 0; i < lista_fatia_faixas.length; i++) {
-  total_desconto += lista_fatia_faixas.get(i)
+  total_desconto += lista_fatia_faixas[i]
 }
 
 let resposta =''
