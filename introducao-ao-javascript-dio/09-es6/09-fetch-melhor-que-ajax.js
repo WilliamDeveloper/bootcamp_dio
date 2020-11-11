@@ -1,8 +1,12 @@
 // funciona no browser
 
 //----------------------------- 
-fetch('https://raw.githubusercontent.com/WilliamDeveloper/bootcamp_dio/main/introducao-ao-javascript-dio/09-es6/data.json')
+fetch('http://127.0.0.1:5500/09-es6/data.json')
 .then( resonseStream =>  {
+  // if(resonseStream.status ===200){
+
+  // }
+
   console.log('resonseStream', resonseStream.status, resonseStream)
   resonseStream.json()
 }
