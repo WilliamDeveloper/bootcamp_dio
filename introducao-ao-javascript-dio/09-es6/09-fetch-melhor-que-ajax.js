@@ -10,7 +10,7 @@ fetch('https://viacep.com.br/ws/01001000/json/')
 //----------------------------- 
 fetch('https://raw.githubusercontent.com/WilliamDeveloper/bootcamp_dio/main/introducao-ao-javascript-dio/09-es6/data.json')
 .then( data => {
-  console.log(data);
+  console.log(data.json());
 })
 .catch( erro => {
   console.log(erro)
