@@ -20,6 +20,8 @@ Promise.all([
   myPromise6()
 ])
 .then( (resultado) =>{
+  console.log('resultado-primeira-promise',resultado[0])
+  console.log('resultado-segunda-promise',resultado[1])
   console.log('todas promisses assincronas foram resolved')
 })
 //---------------------------------------------------
