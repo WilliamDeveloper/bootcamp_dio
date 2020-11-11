@@ -3,12 +3,15 @@
 //----------------------------- 
 fetch('http://127.0.0.1:5500/09-es6/data.json')
 .then( resonseStream =>  {
-  // if(resonseStream.status ===200){
-
-  // }
-
   console.log('resonseStream', resonseStream.status, resonseStream)
-  resonseStream.json()
+  if(resonseStream.status ===200){
+    resonseStream.json()
+  }else{
+    throw new Error('retornou um codigo diferente de 200 => ', resonseStream.status)
+  }
+
+  
+
 }
 ).then(data =>{
   console.log(data)
