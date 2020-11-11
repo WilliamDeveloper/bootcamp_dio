@@ -3,7 +3,7 @@
 ## teste automatizados
 * testes unitarios;
 * testes integrados;
-* teste funcionais;
+* teste funcionais; (END TO END)
 
 
 ## teste manuais e automatizados
