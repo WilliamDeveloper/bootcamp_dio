@@ -1,6 +1,30 @@
 //promises
+
+var myPromise5 = () => new Promise( (resolve, reject) =>{
+  setTimeout(function() {
+    //faz alguma coisa
+    resolve('first data');
+  }, 1000);
+})
+
+
+var myPromise6 = () => new Promise( (resolve, reject) =>{
+  setTimeout(function() {
+    //faz alguma coisa
+    resolve('second data');
+  }, 1000);
+})
+
+Promise.all([
+  myPromise5(),
+  myPromise6()
+])
+.then( (resultado) =>{
+  console.log('todas promisses assincronas foram resolved')
+})
+//---------------------------------------------------
 var myPromise3 = () => new Promise( (resolve, reject) =>{
-  // throw new Error('ocorreu um erro');
+  throw new Error('ocorreu um erro');
   setTimeout(function() {
     //faz alguma coisa
     resolve('first data');
@@ -17,10 +41,13 @@ var myPromise4 = () => new Promise( (resolve, reject) =>{
 
 console.log('teste')
 myPromise3()
-.then( data => { console.log(data); return myPromise4(); } )
+.then( data => { 
+  console.log(data); 
+  return myPromise4(); 
+} )
 .then( data2 => console.log('data2: ',data2) )
 .catch(function(error) {
-  console.log('error2: ',error)
+  console.log('error3 e 4: ',error)
 })
 
 
