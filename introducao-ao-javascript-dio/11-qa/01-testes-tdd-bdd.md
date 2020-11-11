@@ -3,7 +3,7 @@
 ## teste automatizados
 * testes unitarios;
 * testes integrados;
-* teste funcionais; (END TO END)
+* teste funcionais; (END TO END)(TESTE BLACKBOX)
 
 
 ## teste manuais e automatizados
@@ -26,6 +26,7 @@
 é um dos pilares do extreme programing, consiste em testar e refatorar em pequenos ciclos
 onde voce escreve o teste antes do codigo faz o mesmo passar e refatora o codigo.
 
+Escrita de teste -> escrita de codigo -> refatoracao
 
 ### Vantagens
 * Feedback rapido;
