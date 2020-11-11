@@ -24,6 +24,9 @@ Promise.all([
   console.log('resultado-segunda-promise',resultado[1])
   console.log('todas promisses assincronas foram resolved')
 })
+.catch( erro =>{
+  console.log('deu erro no ',erro)
+})
 //---------------------------------------------------
 var myPromise3 = () => new Promise( (resolve, reject) =>{
   throw new Error('ocorreu um erro');
