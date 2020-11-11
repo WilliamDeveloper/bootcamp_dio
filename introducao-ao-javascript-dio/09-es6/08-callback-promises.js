@@ -1,5 +1,31 @@
 //promises
+var myPromise7 = () => new Promise( (resolve, reject) =>{
+  setTimeout(function() {
+    //faz alguma coisa
+    resolve('first data');
+  }, 1000);
+})
 
+
+var myPromise8 = () => new Promise( (resolve, reject) =>{
+  // throw new Error('ocorreu um erro');
+  setTimeout(function() {
+    //faz alguma coisa
+    resolve('second data');
+  }, 1000);
+})
+
+Promise.race([
+  myPromise7(),
+  myPromise8()
+])
+.then( data =>{
+  console.log('Promise.race- primeira promise que resolver')
+})
+.catch( erro => {
+  console.log('erro Promise.race')
+})
+//---------------------------------------------------
 var myPromise5 = () => new Promise( (resolve, reject) =>{
   setTimeout(function() {
     //faz alguma coisa
@@ -9,6 +35,7 @@ var myPromise5 = () => new Promise( (resolve, reject) =>{
 
 
 var myPromise6 = () => new Promise( (resolve, reject) =>{
+  // throw new Error('ocorreu um erro');
   setTimeout(function() {
     //faz alguma coisa
     resolve('second data');
