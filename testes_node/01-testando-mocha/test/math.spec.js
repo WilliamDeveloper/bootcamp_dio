@@ -33,8 +33,26 @@ describe('Math class', function () {
    it.only('multiplicacao de 2 numeros', function(){
       const math = new Math();
       const resultado = math.multiply(5,5)
-      assert.equal(resultado,25)
+
+      
+      //assert.equal(resultado,25)
       expect(resultado).to.equal(25)
    });
+
+   it.only('testando se objeto tem propriedade', function(){
+      const obj = {
+         name: 'William Pacheco'
+      }
+
+      expect(obj).to.have.property('name');
+   })
+
+   it.only('testando se objeto tem propriedade com valor', function(){
+      const obj = {
+         name: 'William Pacheco'
+      }
+
+      expect(obj).to.have.property('name').equal('William Pacheco');
+   })
 
 })
