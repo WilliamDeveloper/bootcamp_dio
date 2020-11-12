@@ -1,3 +1,29 @@
+
+ new Promise( (resolve,reject) =>{
+  console.log('oi')
+  resolve()
+})
+.then(function(resp1){
+
+})
+.catch(function(error1){
+
+})
+
+.then(function(resp2){
+
+})
+.catch(function(error2){
+  
+})
+
+.finally(function(){
+
+})
+
+//----------------------------------------------------------
+
+
 //visualizar promises
 //https://bevacqua.github.io/promisees/
 
