@@ -1,3 +1,16 @@
+//iife
+( async function(){
+  console.log('oi')
+})()
+
+( function(){
+  return new Promise( (resolve,reject) =>{
+    console.log('oi')
+    resolve()
+  })  
+})()
+
+//----------------------------------------------------------
 //promises
 var myPromise7 = () => new Promise( (resolve, reject) =>{
   setTimeout(function() {
