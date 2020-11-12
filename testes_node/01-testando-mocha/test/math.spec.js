@@ -1,6 +1,7 @@
 const assert = require('assert')
 const Math = require('../src/math.js')
 const expect = require('chai').expect;
+const sinon = require('sinon');
 
 let value =0 ;
 describe('Math class', function () {
@@ -65,5 +66,19 @@ describe('Math class', function () {
 
       expect(obj1).to.deep.equal(obj2);
    })
+
+   it.only('teste com mock ',function(){
+      const req = {};
+      const res = {
+         load: sinon.spy()
+      };
+
+      const math = new Math();
+      math.printSum(req,res,5,5)
+
+      expect(res.load.calledOnce).to.be.true;
+
+   })
+
 
 })
