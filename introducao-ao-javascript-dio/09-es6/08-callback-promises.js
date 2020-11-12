@@ -1,3 +1,6 @@
+//visualizar promises
+//https://bevacqua.github.io/promisees/
+
 //iife
 ( async function(){
   console.log('oi')
