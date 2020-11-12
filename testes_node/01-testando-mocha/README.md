@@ -1,5 +1,5 @@
 # quick start do projeto
-```
+```shell
 mkdir mocha
 cd mocha
 
