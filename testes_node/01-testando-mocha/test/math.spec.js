@@ -55,4 +55,15 @@ describe('Math class', function () {
       expect(obj).to.have.property('name').equal('William Pacheco');
    })
 
+   it.only('comparando dois objetos', function(){
+      const obj1 = {
+         name: 'William Pacheco'
+      }
+      const obj2 = {
+         name: 'William Pacheco'
+      }
+
+      expect(obj1).to.deep.equal(obj2);
+   })
+
 })

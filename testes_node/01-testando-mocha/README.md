@@ -18,4 +18,8 @@ yarn test
 
 ```
 
+# documentacao
+```html
+https://www.chaijs.com/guide/styles/#expect
+```
 
