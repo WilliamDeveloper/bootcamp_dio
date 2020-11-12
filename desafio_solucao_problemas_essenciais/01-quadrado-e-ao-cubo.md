@@ -15,6 +15,8 @@ Exemplo de Entrada	|Exemplo de Saída
 
 ```javascript
 // a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
-let R = parseInt(gets());
-let V = parseInt(gets());
+let N = parseInt(gets());
+for(let i =1; i <= N;i++){
+    console.log(i+" "+i**2+" "+i**3)
+}
 ```
