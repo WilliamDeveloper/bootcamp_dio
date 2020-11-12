@@ -5,7 +5,7 @@ cd mocha
 
 npm init -y
 npm i --save-dev mocha
-npm i --save-dev sai
+npm i --save-dev chai
 ```
 
 # rodar scripts de teste
