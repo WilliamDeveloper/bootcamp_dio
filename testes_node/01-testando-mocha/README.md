@@ -18,7 +18,7 @@ yarn test
 
 ```
 
-# documentacao
+# documentacoes
 ```html
 https://www.chaijs.com/guide/styles/#expect
 ```
