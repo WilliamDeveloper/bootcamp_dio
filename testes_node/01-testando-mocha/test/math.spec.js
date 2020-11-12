@@ -1,12 +1,37 @@
 const assert = require('assert')
 const Math = require('../src/math.js')
 
+let value =0 ;
 describe('Math class', function () {
-   it('Soma 2 numeros', function () {
-      const math = new Math();
 
-      assert.equal(math.sum(5,5),10);
-
+   //hooks
+   beforeEach(function(){
+      console.log('beforeEach')
+      value = 0;
    })
+
+
+   //teste
+   it('Soma 2 numeros sucesso', function (done) {
+      const math = new Math();
+      math.sum(5,5, (value)=>{
+         assert.equal(value,10);
+         done();
+      })
+   })
+
+   it('esse teste vai ficar como pendente para ser feito');
+
+   it.skip('esse teste vai escapar');
+
+   it.only('vai executar somente esse teste', function(){
+      assert.equal(5,5);
+   });
+
+   it.only('multiplicacao de 2 numeros', function(){
+      const math = new Math();
+      const resultado = math.multiply(5,5)
+      assert.equal(resultado,25)
+   });
 
 })
