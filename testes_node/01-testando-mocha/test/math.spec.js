@@ -26,13 +26,15 @@ describe('Math class', function () {
    it.skip('esse teste vai escapar');
 
    it.only('vai executar somente esse teste', function(){
-      assert.equal(5,5);
+      expect(5).to.equal(5)
+      //assert.equal(5,5);
    });
 
    it.only('multiplicacao de 2 numeros', function(){
       const math = new Math();
       const resultado = math.multiply(5,5)
       assert.equal(resultado,25)
+      expect(resultado).to.equal(25)
    });
 
 })
