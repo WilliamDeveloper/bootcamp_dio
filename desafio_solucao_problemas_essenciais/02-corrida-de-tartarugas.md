@@ -38,8 +38,9 @@ Exemplo de Entrada	|Exemplo de Saída
 
 ```javascript
 // a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
-let L = parseInt(gets());
-let Vi = gets().split(" ");
+
+
+    
 
 function getNivelTartarugaFrom(velocidade){
     let nivel = 0;
@@ -53,17 +54,45 @@ function getNivelTartarugaFrom(velocidade){
     return nivel;
 }
 
+let L1 = parseInt(gets());
+let Vi1 = gets().split(" ");
+
+let L2 = parseInt(gets());
+let Vi2 = gets().split(" ");
+
+let L3 = parseInt(gets());
+let Vi3 = gets().split(" ");
+
 let lista_tartaruga_rapida = []
 
-for(let i = 0; i < L ; i++) {
+for(let i = 0; i < L1 ; i++) {
   if(i == 0){
-      lista_tartaruga_rapida[i] = parseInt(Vi[i]);
+      lista_tartaruga_rapida[0] = parseInt(Vi1[i]);
   }
   
-  if(parseInt(Vi[i]) > lista_tartaruga_rapida[i]){
-      lista_tartaruga_rapida[i] = parseInt(Vi[i])
+  if(parseInt(Vi1[i]) > lista_tartaruga_rapida[0]){
+      lista_tartaruga_rapida[0] = parseInt(Vi1[i])
+  }  
+}
+
+for(let i = 0; i < L2 ; i++) {
+  if(i == 0){
+      lista_tartaruga_rapida[1] = parseInt(Vi2[i]);
   }
-  // console.log( parseInt(Vi[i]),getNivelTartarugaFrom( parseInt(Vi[i])))
+  
+  if(parseInt(Vi2[i]) > lista_tartaruga_rapida[1]){
+      lista_tartaruga_rapida[1] = parseInt(Vi2[i])
+  }  
+}
+
+for(let i = 0; i < L3 ; i++) {
+  if(i == 0){
+      lista_tartaruga_rapida[2] = parseInt(Vi3[i]);
+  }
+  
+  if(parseInt(Vi[i]) > lista_tartaruga_rapida[2]){
+      lista_tartaruga_rapida[2] = parseInt(Vi3[i])
+  }  
 }
 
 for(let i = 0; i < lista_tartaruga_rapida.length ; i++) {
