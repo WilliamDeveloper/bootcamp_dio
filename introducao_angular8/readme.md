@@ -21,3 +21,6 @@
 # iniciando o servidor da aplicacao
 - `ng serve` - inicializa a aplicacao em browser on http://localhost:4200/
     - google privacy policy -> 'N'
+    - comandos alternativos:
+        - `npm run start`  - ira rodar o ng serve
+        - `yarn start`     - ira rodar o ng serve
