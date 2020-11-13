@@ -28,16 +28,17 @@ Exemplo de Entrada	| Exemplo de Saída
 
 ```javascript
 
-lista = []
-while (true){
-    let valor_digitado = gets()
-    let axou = false
-    for (let i=0;i < lista.length;i++ ){
-        if(valor_digitado === lista[i]){
-            axou = true
-            break;
-        }
-    } 
-} 
+let entrada = gets();
+let joias = [];
+
+while (entrada) {
+  joias.push(entrada);
+  entrada = gets();
+}
+
+//  unicas vai receber tamanho(.length) da nova array retornada com filter na array joias
+const unicas = joias.filter((joia, index, arr) => index === arr.indexOf(joia)).length;
+
+console.log(unicas);
 
 ```
