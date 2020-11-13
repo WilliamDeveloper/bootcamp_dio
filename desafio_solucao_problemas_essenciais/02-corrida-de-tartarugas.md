@@ -2,10 +2,11 @@
 A corrida de tartarugas é um esporte que cresceu muito nos últimos anos, 
 fazendo com que vários competidores se dediquem a capturar tartarugas rápidas,
  e treina-las para faturar milhões em corridas pelo mundo. 
+ 
  Porém a tarefa de capturar tartarugas não é uma tarefa muito fácil, 
  pois quase todos esses répteis são bem lentos. 
+ 
  Cada tartaruga é classificada em um nível dependendo de sua velocidade:
-
 
 Nível 1: Se a velocidade é menor que 10 cm/h .
 
@@ -37,6 +38,41 @@ Exemplo de Entrada	|Exemplo de Saída
 
 ```javascript
 // a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
-let R = parseInt(gets());
-let V = parseInt(gets());
+let L = parseInt(gets());
+let Vi = gets().split(" ");
+
+L = 10
+Vi = "10 10 10 10 15 18 20 15 11 10".split(" ");
+
+function getNivelTartarugaFrom(velocidade){
+    let nivel = 0;
+    if(velocidade < 10){
+        nivel = 1;
+    }else if(velocidade >= 10 && velocidade < 20){
+        nivel = 2;
+    }else{
+        nivel = 3;
+    }       
+    return nivel;
+}
+
+let lista_tartaruga_rapida = []
+
+for(let i = 0; i < L ; i++) {
+  if(i == 0){
+      lista_tartaruga_rapida[i] = parseInt(Vi[i]);
+  }
+  
+  if(parseInt(Vi[i]) > lista_tartaruga_rapida[i]){
+      lista_tartaruga_rapida[i] = parseInt(Vi[i])
+  }
+  console.log( parseInt(Vi[i]),getNivelTartarugaFrom( parseInt(Vi[i])))
+}
+
+for(let i = 0; i < lista_tartaruga_rapida.length ; i++) {
+  console.log(getNivelTartarugaFrom(lista_tartaruga_rapida[i]))
+}
+
+
+
 ```
