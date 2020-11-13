@@ -9,3 +9,8 @@
 
 # instalando pacote global
 - `npm install -g @angular/cli` - cliente angular
+
+# criando um projeto angular
+- `ng -new course-manager` - cria um projeto com estrutura basica do angular
+    - add angular routes-> 'N'
+    - stylesheet -> CSS
