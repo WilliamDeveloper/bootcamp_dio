@@ -14,3 +14,7 @@
 - `ng -new course-manager` - cria um projeto com estrutura basica do angular
     - add angular routes-> 'N'
     - stylesheet -> CSS
+
+# iniciando o servidor da aplicacao
+- `ng serve` - inicializa a aplicacao em browser on http://localhost:4200/
+    - google privacy policy -> 'N'
