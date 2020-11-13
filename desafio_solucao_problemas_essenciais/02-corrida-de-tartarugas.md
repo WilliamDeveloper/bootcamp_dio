@@ -41,9 +41,6 @@ Exemplo de Entrada	|Exemplo de Saída
 let L = parseInt(gets());
 let Vi = gets().split(" ");
 
-L = 10
-Vi = "10 10 10 10 15 18 20 15 11 10".split(" ");
-
 function getNivelTartarugaFrom(velocidade){
     let nivel = 0;
     if(velocidade < 10){
@@ -66,13 +63,12 @@ for(let i = 0; i < L ; i++) {
   if(parseInt(Vi[i]) > lista_tartaruga_rapida[i]){
       lista_tartaruga_rapida[i] = parseInt(Vi[i])
   }
-  console.log( parseInt(Vi[i]),getNivelTartarugaFrom( parseInt(Vi[i])))
+  // console.log( parseInt(Vi[i]),getNivelTartarugaFrom( parseInt(Vi[i])))
 }
 
 for(let i = 0; i < lista_tartaruga_rapida.length ; i++) {
   console.log(getNivelTartarugaFrom(lista_tartaruga_rapida[i]))
 }
-
 
 
 ```
