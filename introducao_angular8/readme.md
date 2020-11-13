@@ -12,6 +12,7 @@
 
 # instalando dependencias do projeto
 - `npm install bootstrap` - instala bootstrap no projeto
+- `npm install font-awesome` - instala pacote de font icon no projeto
 
 # criando um projeto angular
 - `ng -new course-manager` - cria um projeto com estrutura basica do angular
