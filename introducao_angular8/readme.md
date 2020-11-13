@@ -10,6 +10,9 @@
 # instalando pacote global
 - `npm install -g @angular/cli` - cliente angular
 
+# instalando dependencias do projeto
+- `npm install bootstrap` - instala bootstrap no projeto
+
 # criando um projeto angular
 - `ng -new course-manager` - cria um projeto com estrutura basica do angular
     - add angular routes-> 'N'
