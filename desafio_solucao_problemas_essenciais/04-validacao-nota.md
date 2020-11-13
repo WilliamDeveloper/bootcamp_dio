@@ -34,7 +34,7 @@ while (true){
         
         if(lista_notas.length === 2){
             let media = lista_notas.reduce((acum, nota) => acum += nota, 0) / lista_notas.length;
-            console.log('media = '+media)
+            console.log('media = '+media.toFixed(2))
             break;
         }
     }else{
