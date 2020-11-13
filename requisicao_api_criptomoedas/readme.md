@@ -1,7 +1,9 @@
 # links
 Projeto Web utilizando a API Coin Market Cap <br>
 [Portal do desenvolvedor](https://pro.coinmarketcap.com/account) <br>
-[Documetação de autenticação](https://coinmarketcap.com/api/documentation/v1/#section/Authentication) <br>
-[Documentação API](https://coinmarketcap.com/api/documentation/v1/#) <br>
+[Documetaï¿½ï¿½o de autenticaï¿½ï¿½o](https://coinmarketcap.com/api/documentation/v1/#section/Authentication) <br>
+[Documentaï¿½ï¿½o API](https://coinmarketcap.com/api/documentation/v1/#) <br>
 
+
+# instalar plugin do cors e deixar on
 https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related
