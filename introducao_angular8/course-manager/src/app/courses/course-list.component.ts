@@ -7,27 +7,28 @@ import { CourseService } from './course.service';
   // template: '<h2> Course List </h2>'
   templateUrl: './course-list.component.html'
 })
+export class CourseListComponent implements OnInit {
 
-export class CourseListComponent implements OnInit{
+  filteredCourses: Course[] = [];
 
-  filteredCourses : Course[] = [];
+  _courses: Course[] = [];
 
-  _courses: Course[] = []
+  _filterBy: string = "";
 
-  _filterBy : string = "";
+  constructor(private courseService: CourseService) { }
 
-  constructor(private courseService : CourseService){  }
+  ngOnInit(): void {
+    this._courses = this.courseService.retrieveAll();
 
-  ngOnInit(): void{    
-    this._courses = this.courseService.retrieveAll()
-    this.filteredCourses = this._courses.filter( (course: Course) => course.name.toLowerCase().indexOf(this._filterBy.toLowerCase()) > -1)
   }
 
-  set filter(value:string){
+  set filter(value: string) {
     this._filterBy = value;
+    
+    this.filteredCourses = this._courses.filter( (course: Course) => course.name.toLowerCase().indexOf(this._filterBy.toLowerCase()) > -1 )
   }
 
-  get filter(){
+  get filter() { 
     return this._filterBy;
   }
 
