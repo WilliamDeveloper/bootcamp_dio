@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Course } from './course';
+import { CourseService } from './course.service';
 
 
 @Component({
@@ -7,12 +9,13 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CourseInfoComponent implements OnInit{
 
-  courseId : number =0;
+  course : Course = new Course();
 
-  constructor(private activatedRoute : ActivatedRoute){}
+  constructor(private activatedRoute : ActivatedRoute, private courseService: CourseService){}
 
   ngOnInit(): void {
-    this.courseId = parseInt(""+this.activatedRoute.snapshot.paramMap.get('id'));
+    let courseId = parseInt(""+this.activatedRoute.snapshot.paramMap.get('id'));
+    this.course = this.courseService.retrieveById(courseId)  ;
   }
 
 }
