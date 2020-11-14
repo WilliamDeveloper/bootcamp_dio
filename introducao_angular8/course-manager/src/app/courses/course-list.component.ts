@@ -19,7 +19,7 @@ export class CourseListComponent implements OnInit {
 
   ngOnInit(): void {
     this._courses = this.courseService.retrieveAll();
-
+    this.filteredCourses = this._courses
   }
 
   set filter(value: string) {
