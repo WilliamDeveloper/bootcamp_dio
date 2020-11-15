@@ -11,4 +11,4 @@ import { StarComponent } from './star.component';
 })
 export class StarModule{
 
-}
+} 
