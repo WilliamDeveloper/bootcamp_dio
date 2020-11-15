@@ -58,7 +58,7 @@ app.route('/api/courses/:id').delete((request, response)=> {
 var COURSES = [
     {
         id: 1,
-        name: 'Angular: CLI',
+        name: 'Angular: CLI - 1',
         releaseDate: 'November 2, 2019',
         description: 'Neste curso, os alunos irão obter um grande conhecimento nos principais recursos do CLI.',
         duration: 120,
