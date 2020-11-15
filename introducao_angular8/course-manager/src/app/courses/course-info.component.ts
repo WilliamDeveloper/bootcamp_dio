@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Observable } from 'rxjs';
 import { Course } from './course';
 import { CourseService } from './course.service';
 
@@ -29,5 +30,7 @@ export class CourseInfoComponent implements OnInit{
       error : erro => console.log('erro ',erro)   
     });
   }
+
+  
 
 }
