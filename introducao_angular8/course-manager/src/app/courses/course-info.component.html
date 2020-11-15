@@ -7,10 +7,22 @@
   <div class="form-group row">    
     <label class="col-sm-2 col-form-label">Name:</label>
     <div class="col-sm-10">
-      <input [(ngModel)]="course.name" name="name" #courseName="ngModel" [ngClass]="{'is-invalid' : courseName.invalid }" class="form-control" required>
+      <input [(ngModel)]="course.name" name="name" #courseName="ngModel" [ngClass]="{'is-invalid' : courseName.invalid }" class="form-control" required>      
+      <div class="invalid-feedback">
+        <span>Course name is required</span>
+      </div>
+      <!-- {{ courseName.value}} -->
+      <!-- invalid: {{ courseName.invalid}} -->
+    </div>
+  </div>
 
-      {{ courseName.value}}
-      invalid: {{ courseName.invalid}}
+  <div class="form-group row">    
+    <label class="col-sm-2 col-form-label">Price:</label>
+    <div class="col-sm-10">
+      <input [(ngModel)]="course.price" name="price" #coursePrice="ngModel" [ngClass]="{'is-invalid' : coursePrice.invalid }" class="form-control" required>      
+      <div class="invalid-feedback">
+        <span>Course price is required</span>
+      </div>
     </div>
   </div>
 
