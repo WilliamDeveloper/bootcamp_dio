@@ -1,6 +1,7 @@
 # instalando
 - `node` - https://nodejs.org/en/download/
 - `visual studio code` - https://visualstudio.microsoft.com/pt-br/downloads/
+- `angular-docs` - https://angular.io/docs
 
 # testando instalacoes
 - `node -v` - versao do node 
