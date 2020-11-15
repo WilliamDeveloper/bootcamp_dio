@@ -17,10 +17,11 @@ export class CourseService{
     return this.httpClient.get<Course[]>(this.courseUrl)
   }
   
-  retrieveById(id:number) : Course {
-    return COURSES.find( (course) => {
-      return course.id === id;
-    }) as Course   
+  retrieveById(id:number) : Observable<Course>{
+    // return COURSES.find( (course) => {
+    //   return course.id === id;
+    // }) as Course   
+    return this.httpClient.get<Course>(`${this.courseUrl}/${id}`)
 
   }
 
