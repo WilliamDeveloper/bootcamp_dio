@@ -25,13 +25,18 @@ export class CourseService{
 
   }
 
-  save(course: Course) : void{
-      if(course.id){
-        const index = COURSES.findIndex( (courseIterado) => {
-          return courseIterado.id === course.id;
-        })
-        COURSES[index] = course
+  save(course: Course) : Observable<Course>{
+      // if(course.id){
+      //   const index = COURSES.findIndex( (courseIterado) => {
+      //     return courseIterado.id === course.id;
+      //   })
+      //   COURSES[index] = course
 
+      // }
+      if(course.id){
+        return this.httpClient.put<Course>(`${this.courseUrl}/${course.id}`, course)
+      }else{
+        return this.httpClient.post<Course>(`${this.courseUrl}`, course)
       }
   }
 }
