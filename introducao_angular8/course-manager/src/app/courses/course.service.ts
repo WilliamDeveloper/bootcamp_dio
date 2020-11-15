@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Course } from './course';
 
@@ -5,6 +6,10 @@ import { Course } from './course';
   providedIn : 'root'
 })
 export class CourseService{
+
+  private courseUrl: string = 'http://localhost:3100/api/courses';
+
+  constructor(private httpClient : HttpClient){}
 
   retrieveAll() : Course[]{
     return COURSES;
