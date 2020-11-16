@@ -49,8 +49,6 @@
 - `45.84.toLocaleString('pt-BR',{style:'currency', currency:'USD'})` - formatar para dolar
 - `45.84.toLocaleString('pt-BR',{style:'currency', currency:'EUR'})` - formatar para euro
 
-###### document
-
 
 ###### strings
 - `"".length` - conta quantos caracteres a string tem
@@ -59,7 +57,7 @@
 - `"15.50".replace('.',',')` - substituir ponto por virgula
 
 
-###### comandos
+###### document
 - `document.body.style.background = 'black';`
 - `document.querySelector('img#hplogo').style.filter = 'grayscale(100%)';`
 - `document.querySelector('img#hplogo').style.visibility = 'hidden';`
