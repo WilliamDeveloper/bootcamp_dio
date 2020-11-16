@@ -1,4 +1,4 @@
-###### interacao
+###### data types - tipos do javascript
 - `number`
     - `infinity`
     - `NaN`
