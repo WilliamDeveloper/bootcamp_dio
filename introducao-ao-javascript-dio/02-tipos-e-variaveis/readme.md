@@ -8,9 +8,9 @@
 - `document.write`
 
 ###### strings
-- `"".length`
-- `"".toUpperCase`
-- `"".toLowerCase`
+- `"".length` - conta quantos caracteres a string tem
+- `"".toUpperCase` - tudo para maiusculo
+- `"".toLowerCase` - tudo para minusculo
 
 ###### comentarios
 - `/**/`
