@@ -69,12 +69,12 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
 
 ###### operadores
 - `aritméticos` <br>
-    `+  ex: 5 +  2 = 7`   - adicao <br>
-    `-  ex: 5 -  2 = 3`   - subtracao <br>
-    `*  ex: 5 *  2 = 10`  - multiplicacao <br>
-    `/  ex: 5 /  2 = 2.5` - divisao <br>
-    `%  ex: 5 %  2 = 1`   - resto da divisao <br>
-    `** ex: 5 ** 2 = 25`  - potenciacao <br>
+    `+`    `5 +  2 = 7`   - adicao <br>
+    `-`    `5 -  2 = 3`   - subtracao <br>
+    `*`    `5 *  2 = 10`  - multiplicacao <br>
+    `/`    `5 /  2 = 2.5` - divisao <br>
+    `%`    `5 %  2 = 1`   - resto da divisao <br>
+    `**`   `5 ** 2 = 25`  - potenciacao <br>
     
 - `atribuicao` 
 - `relacionais` 
