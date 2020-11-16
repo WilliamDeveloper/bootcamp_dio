@@ -54,8 +54,11 @@
 - `"15.50".replace('.',',')` - substituir ponto por virgula
 
 ###### strings concatenando
-- `var b ="outra string"; var a = "uma string " + b;` -  concatenação
-- `var b ="outra string"; var a = `uma string ${b}`;` -  concatenação
+````javascript
+var b ="outra string"; var a = "uma string " + b;  //  concatenação
+var b ="outra string"; var a = `uma string ${b}`;  //  concatenação
+````
+
 
 ###### document
 - `document.body.style.background = 'black';`
