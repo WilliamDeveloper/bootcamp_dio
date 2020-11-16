@@ -40,3 +40,8 @@
 ###### comentarios
 - `/**/`
 - `//`
+
+###### comentarios
+- `document.body.style.background = 'black';`
+- `document.querySelector('img#hplogo').style.filter = 'grayscale(100%)';`
+- `document.querySelector('img#hplogo').style.visibility = 'hidden';`
