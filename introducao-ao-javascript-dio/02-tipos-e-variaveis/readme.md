@@ -9,6 +9,19 @@
 - `object`
     - `Array`
 - `function`    
+
+###### investigar tipos
+- `typeof 6.5`
+- `typeof 6`
+- `typeof 'teste'`
+- `typeof []`
+- `typeof {}`
+- `typeof function(){}`
+- `typeof NaN`
+- `typeof Infinity`
+- `typeof null`
+ 
+
  
 ###### interacao
 - `window.prompt`
