@@ -56,7 +56,7 @@
 ###### strings concatenando
 ````javascript
 var b ="outra string"; var a = "uma string " + b;  //  concatenação
-var b ="outra string"; var a = `uma string ${b}`;  //  concatenação
+var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template string
 ````
 
 
