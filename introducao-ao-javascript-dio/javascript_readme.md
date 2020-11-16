@@ -86,8 +86,8 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     `var b = a % 5 = 3` <br>
     `var c = 5 * b ** 2 = 45` <br>
     `var d = 10 - a /2 = 6` <br>
-    `var e = 6 * 2 / d` <br>
-    `var f = b % e + 4 / e` <br>
+    `var e = 6 * 2 / d = 2` <br>
+    `var f = b % e + 4 / e = 3` <br>
     
     
     
