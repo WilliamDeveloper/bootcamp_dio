@@ -20,6 +20,7 @@
 - `"".length` - conta quantos caracteres a string tem
 - `"".toUpperCase()` - tudo para maiusculo
 - `"".toLowerCase()` - tudo para minusculo
+- `"15.50".replace('.',',')` - substituir ponto por virgula
 
 ###### comentarios
 - `/**/`
