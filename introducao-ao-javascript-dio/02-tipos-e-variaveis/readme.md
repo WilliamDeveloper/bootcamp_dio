@@ -29,11 +29,11 @@
 
  
 ###### interacao
-- `window.prompt` - abre uma caixa de dialogo com "ok" e "cancel" 
-- `window.alert` - mostra uma janela de alerta
-- `console.log` - escreve no console
-- `document.writeln` - escreve na pagina dando um enter
-- `document.write` - escreve na pagina dando um enter
+- `var resp = window.prompt('digite algo: ')` - abre uma caixa de dialogo com "ok" e "cancel" 
+- `window.alert('ola')` - mostra uma janela de alerta
+- `console.log('teste')` - escreve no console
+- `document.writeln('escrever')` - escreve na pagina dando um enter
+- `document.write('escrever')` - escreve na pagina dando um enter
 
 ###### conversao
 - `45.8.toString()` - converte para string
