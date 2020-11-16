@@ -78,7 +78,7 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     - ordem de precedencia:<br>
         `( )` <br>
         `**` <br>
-        `* /%` <br>
+        `* / %` <br>
         `+ -` <br>
     
 - `atribuicao` 
