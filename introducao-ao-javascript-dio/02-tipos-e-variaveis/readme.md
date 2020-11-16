@@ -1,3 +1,8 @@
+
+###### comentarios
+- `/**/`
+- `//`
+
 ###### data types - tipos do javascript
 - `number`
     - `infinity`
@@ -50,9 +55,6 @@
 - `"".toLowerCase()` - tudo para minusculo
 - `"15.50".replace('.',',')` - substituir ponto por virgula
 
-###### comentarios
-- `/**/`
-- `//`
 
 ###### comandos
 - `document.body.style.background = 'black';`
