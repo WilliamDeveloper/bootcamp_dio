@@ -2,6 +2,7 @@ import {soma} from "./module";
 import {subtracao} from "./module2";
 import * as mat from "./module3"
 import * as mat2 from "./module4"
+import User from "./module5"
 
 let resultado = soma(1,2)
 console.log(resultado)
