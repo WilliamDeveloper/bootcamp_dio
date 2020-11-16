@@ -37,7 +37,9 @@
 - `45.8.toString()` - converte para string
 - `String(45.8)` - converte para string
 - `Number.parseInt('45.5')` - converte para inteiro
+- `Number('45')` - converte para inteiro
 - `Number.parseFloat('45.5')` - converte para float
+- `Number('45.5')` - converte para float
 
 ###### formatacao
 - `45.84422.toFixed(2)` - formata para 2 casas decimais
