@@ -29,9 +29,11 @@
 
  
 ###### interacao
-- `window.prompt`
-- `window.alert`
-- `console.log`
+- `window.prompt` - abre uma caixa de dialogo com "ok" e "cancel" 
+- `window.alert` - mostra uma janela de alerta
+- `console.log` - escreve no console
+- `document.writeln` - escreve na pagina dando um enter
+- `document.write` - escreve na pagina dando um enter
 
 ###### conversao
 - `45.8.toString()` - converte para string
@@ -48,8 +50,7 @@
 - `45.84.toLocaleString('pt-BR',{style:'currency', currency:'EUR'})` - formatar para euro
 
 ###### document
-- `document.writeln`
-- `document.write`
+
 
 ###### strings
 - `"".length` - conta quantos caracteres a string tem
