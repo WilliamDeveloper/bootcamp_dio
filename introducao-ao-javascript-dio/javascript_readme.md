@@ -75,6 +75,11 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     `/`    `5 /  2 = 2.5` - divisao <br>
     `%`    `5 %  2 = 1`   - resto da divisao <br>
     `**`   `5 ** 2 = 25`  - potenciacao <br>
+    - ordem de precedencia:
+        `( )`
+        `**`
+        `* /%`
+        `+ -`
     
 - `atribuicao` 
 - `relacionais` 
