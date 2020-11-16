@@ -59,9 +59,17 @@ var b ="outra string"; var a = "uma string " + b;  //  concatenação
 var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template string
 ````
 
-
 ###### document
 - `document.body.style.background = 'black';`
 - `document.querySelector('img#hplogo').style.filter = 'grayscale(100%)';`
 - `document.querySelector('img#hplogo').style.visibility = 'hidden';`
 - `document.querySelector('span.bstn-hl-title').innerText = 'Curso em video de javascript é o melhor do youtube';`
+
+
+
+###### operadores
+- `aritméticos`
+- `atribuicao` 
+- `relacionais` 
+- `logicos` 
+- `ternário`
