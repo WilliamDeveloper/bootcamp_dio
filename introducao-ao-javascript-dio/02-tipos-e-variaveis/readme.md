@@ -1,4 +1,16 @@
 ###### interacao
+- `number`
+    - `infinity`
+    - `NaN`
+- `string`
+- `boolean`
+- `null`
+- `undefined`
+- `object`
+    - `Array`
+- `function`    
+ 
+###### interacao
 - `window.prompt`
 - `window.alert`
 - `console.log`
