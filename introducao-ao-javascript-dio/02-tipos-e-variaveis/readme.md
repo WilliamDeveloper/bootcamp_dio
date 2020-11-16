@@ -1,13 +1,17 @@
-window.prompt
-window.alert
-console.log
+###### interacao
+- `window.prompt`
+- `window.alert`
+- `console.log`
 
-document.writeln
-document.write
+###### document
+- `document.writeln`
+- `document.write`
 
-"".length
-"".toUpperCase
-"".toLowerCase
+###### strings
+- `"".length`
+- `"".toUpperCase`
+- `"".toLowerCase`
 
-/**/
-//
+###### comentarios
+- `/**/`
+- `//`
