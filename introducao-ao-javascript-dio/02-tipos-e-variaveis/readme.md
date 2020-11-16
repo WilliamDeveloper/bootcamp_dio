@@ -11,6 +11,7 @@
 
 ###### formatacao
 - `45.84422.toFixed(2)` - formata para 2 casas decimais
+- `45.84.toLocaleString('pt-BR',{style:'currency', currency:'BRL''})` - formata para 2 casas decimais
 
 ###### document
 - `document.writeln`
