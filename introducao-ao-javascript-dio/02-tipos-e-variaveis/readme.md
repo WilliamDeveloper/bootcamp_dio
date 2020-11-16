@@ -10,7 +10,7 @@
 - `Number.parseFloat('45.5')` - converte para float
 
 ###### formatacao
-- `45.8.toFixed(2)` - formata para 2 casas decimais
+- `45.84422.toFixed(2)` - formata para 2 casas decimais
 
 ###### document
 - `document.writeln`
