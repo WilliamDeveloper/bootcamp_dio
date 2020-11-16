@@ -68,7 +68,13 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
 
 
 ###### operadores
-- `aritméticos`
+- `aritméticos` <br>
+    `+` - adicao <br>
+    `-` - subtracao <br>
+    `*` - multiplicacao <br>
+    `/` - divisao <br>
+    `%` - resto da divisao <br>
+    `**` - potenciacao <br>
 - `atribuicao` 
 - `relacionais` 
 - `logicos` 
