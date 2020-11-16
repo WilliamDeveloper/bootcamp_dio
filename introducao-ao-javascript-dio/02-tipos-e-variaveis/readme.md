@@ -9,8 +9,8 @@
 
 ###### strings
 - `"".length` - conta quantos caracteres a string tem
-- `"".toUpperCase` - tudo para maiusculo
-- `"".toLowerCase` - tudo para minusculo
+- `"".toUpperCase()` - tudo para maiusculo
+- `"".toLowerCase()` - tudo para minusculo
 
 ###### comentarios
 - `/**/`
