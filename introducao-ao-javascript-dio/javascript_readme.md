@@ -38,7 +38,7 @@
 
 
 ###### operadores<br>
-- `aritm�ticos` <br>
+- `aritmeticos` <br>
     `+`    `5 +  2 = 7`   - adicao <br>
     `-`    `5 -  2 = 3`   - subtracao <br>
     `*`    `5 *  2 = 10`  - multiplicacao <br>
