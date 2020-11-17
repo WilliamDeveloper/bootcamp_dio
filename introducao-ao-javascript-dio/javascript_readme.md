@@ -111,5 +111,11 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     
     
 - `relacionais` 
+    `>`    `5 > 3`   - maior que <br>
+    `<`    `5 < 3`   - menor que <br>
+    `>=`   `5 >= 3`  - maior igual a <br>
+    `<=`   `5 <= 3`   - menor igual a  <br>
+    `==`    `5 == 3`   - igual <br>
+    `!=`    `5 != 3`   - diferente <br>
 - `logicos` 
 - `ternário`
