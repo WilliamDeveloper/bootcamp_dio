@@ -111,11 +111,11 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     
     
 - `relacionais` 
-    `>`    `5 > 3`   - maior que <br>
-    `<`    `5 < 3`   - menor que <br>
-    `>=`   `5 >= 3`  - maior igual a <br>
-    `<=`   `5 <= 3`   - menor igual a  <br>
-    `==`    `5 == 3`   - igual <br>
-    `!=`    `5 != 3`   - diferente <br>
+    `>`    `5 > 3`   true  - maior que <br>
+    `<`    `5 < 3`   false - menor que <br>
+    `>=`   `5 >= 3`  true  - maior igual a <br>
+    `<=`   `5 <= 3`  false - menor igual a  <br>
+    `==`    `5 == 3` false  - igual <br>
+    `!=`    `5 != 3` true  - diferente <br>
 - `logicos` 
 - `ternário`
