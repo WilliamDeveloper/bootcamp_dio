@@ -145,3 +145,9 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatena��o com temp
 ###### array
  - `var lista =[1,8,3,4]; lista.sort() `
  - `var lista =[1,8,3,4]; lista.length `
+ 
+ ###### emoji
+https://emojipedia.org/grinning-face/
+
+Codepoints U+1F600<br>
+`&#x1F600;` - padrao codigo para exibir emoji no html
