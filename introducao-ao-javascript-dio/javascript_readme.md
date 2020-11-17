@@ -147,9 +147,16 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatena��o com temp
  - `var lista =[1,8,3,4]; lista.length `
  
  ###### emoji
-https://emojipedia.org/grinning-face/
+    https://emojipedia.org/grinning-face/
+    
+    Codepoints U+1F600<br>
+    `&#x1F600;` - padrao codigo para exibir emoji no html
+    
+    
+ ###### buscar fotos livres de direitos autorais
 
-Codepoints U+1F600<br>
-`&#x1F600;` - padrao codigo para exibir emoji no html
+- google > "images"  > "marcadas para reutilizacao com modificacao"
 
+- https://unsplash.com/
 
+- https://www.pexels.com/pt-br/
