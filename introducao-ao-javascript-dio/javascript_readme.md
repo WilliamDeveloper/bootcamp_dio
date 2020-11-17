@@ -138,6 +138,6 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
 
 
 ###### condicoes
-    - `if`
-    - `if else`
-    - `if else if`
+    - `if(condicao) { }`
+    - `if(condicao) { } else { }`
+    - `if(condicao) { } else if { } else { }`
