@@ -38,7 +38,7 @@
 
 
 ###### operadores<br>
-- `aritméticos` <br>
+- `aritmï¿½ticos` <br>
     `+`    `5 +  2 = 7`   - adicao <br>
     `-`    `5 -  2 = 3`   - subtracao <br>
     `*`    `5 *  2 = 10`  - multiplicacao <br>
@@ -97,7 +97,7 @@
         `&&`<br>
         `||`<br>
     
-- `ternário`
+- `ternï¿½rio`
     ` condicao ? true : false ` - usado para simplificar o if
     
     
@@ -123,15 +123,15 @@
 
 ###### strings concatenando
 ````javascript
-var b ="outra string"; var a = "uma string " + b;  //  concatenação
-var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template string
+var b ="outra string"; var a = "uma string " + b;  //  concatenaï¿½ï¿½o
+var b ="outra string"; var a = `uma string ${b}`;  //  concatenaï¿½ï¿½o com template string
 ````
 
 ###### document
 - `document.body.style.background = 'black';`
 - `document.querySelector('img#hplogo').style.filter = 'grayscale(100%)';`
 - `document.querySelector('img#hplogo').style.visibility = 'hidden';`
-- `document.querySelector('span.bstn-hl-title').innerText = 'Curso em video de javascript é o melhor do youtube';`
+- `document.querySelector('span.bstn-hl-title').innerText = 'Curso em video de javascript ï¿½ o melhor do youtube';`
 
 ###### eventos
 - `mouseenter` - 
@@ -141,3 +141,7 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     - `if(condicao) { }`
     - `if(condicao) { } else { }`
     - `if(condicao) { } else if { } else { }`
+    
+###### array
+ - `var lista =[1,8,3,4]; lista.sort() `
+ - `var lista =[1,8,3,4]; lista.length `
