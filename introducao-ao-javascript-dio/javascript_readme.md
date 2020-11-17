@@ -121,4 +121,5 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     `!`    ` !false` true  - NOT <br>
     `&&`    `true && true`  - AND <br>
     `||`    `false || true` - OU <br>
+    
 - `ternário`
