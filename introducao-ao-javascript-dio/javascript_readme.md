@@ -135,3 +135,9 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
 
 ###### eventos
 - `mouseenter` - 
+
+
+###### condicoes
+    - `if`
+    - `if else`
+    - `if else if`
