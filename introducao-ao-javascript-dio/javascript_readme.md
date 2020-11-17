@@ -103,8 +103,8 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     - incremento
         ````javascript
           var n = 5;
-          n = n + 1; // n++;
-          n = n - 1; // n--;
+          n = n + 1; // n++     ++n;
+          n = n - 1; // n--     --n;
 
         ````
     
