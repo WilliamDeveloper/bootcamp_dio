@@ -25,6 +25,10 @@
     <p>aprendendo a usar o <strong>DOM</strong> em javascript.</p>
     <div id="msg">clique em mim</div>
     <div id="area" onclick="clicar()">clique em mim</div>
+    <input type="number" name="n1" id="n1">+
+    <input type="number" name="n2" id="n2">
+    <input type="button" id="btn-somar" value="Somar" onclick="somar()" >
+    <div id="resultado">Resultado</div>
     <script>
         window.document.writeln("<br>"+window.document.charset)
         window.document.writeln("<br>"+window.navigator.appName)
@@ -65,6 +69,13 @@
         elemento.addEventListener('mouseout',function () {
 
         })
+
+        function somar(){
+            var n1 =  Number.parseFloat(window.document.getElementById('n1').value)
+            var n2 =  Number.parseFloat(window.document.getElementById('n2').value)
+            var resultado = window.document.getElementById('resultado')
+            resultado.innerText = n1 + n2
+        }
 
     </script>
 </body>
