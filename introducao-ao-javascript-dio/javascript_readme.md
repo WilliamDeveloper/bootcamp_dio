@@ -106,8 +106,7 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
           n = n + 1; // n++     ++n;
           n = n - 1; // n--     --n;
 
-        ````
-    
+        ````    
     
     
 - `relacionais` 
@@ -117,5 +116,6 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     `<=`   `5 <= 3`  false - menor igual a  <br>
     `==`    `5 == 3` false  - igual <br>
     `!=`    `5 != 3` true  - diferente <br>
+    
 - `logicos` 
 - `ternário`
