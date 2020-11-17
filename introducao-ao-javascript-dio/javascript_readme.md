@@ -151,3 +151,5 @@ https://emojipedia.org/grinning-face/
 
 Codepoints U+1F600<br>
 `&#x1F600;` - padrao codigo para exibir emoji no html
+
+
