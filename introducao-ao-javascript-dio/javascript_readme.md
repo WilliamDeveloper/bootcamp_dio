@@ -79,7 +79,7 @@
         ````  
     
     
-- `relacionais` 
+- `relacionais` <br>
     `>`    `5 > 3`   true  - maior que <br>
     `<`    `5 < 3`   false - menor que <br>
     `>=`   `5 >= 3`  true  - maior igual a <br>
