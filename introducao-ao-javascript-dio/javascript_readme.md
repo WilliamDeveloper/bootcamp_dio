@@ -117,9 +117,14 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     `==`    `5 == 3` false  - igual <br>
     `!=`    `5 != 3` true  - diferente <br>
     
-- `logicos` 
+- `logicos` <br>
     `!`    ` !false` true  - NOT negacao<br>
     `&&`    `true && true`  - AND conjuncao<br>
     `||`    `false || true` - OU disjuncao<br>
+    
+    - ordem precedencia<br>
+        `!`<br>
+        `&&`<br>
+        `||`<br>
     
 - `ternário`
