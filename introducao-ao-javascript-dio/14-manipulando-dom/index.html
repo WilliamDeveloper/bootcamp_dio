@@ -11,7 +11,7 @@
     <h1>olá mundo</h1>
     <p>aqui vai o resultado</p>
     <p>aprendendo a usar o <strong>DOM</strong> em javascript.</p>
-    <div>clique em mim</div>
+    <div id="msg">clique em mim</div>
     <script>
         window.document.writeln("<br>"+window.document.charset)
         window.document.writeln("<br>"+window.navigator.appName)
@@ -20,6 +20,22 @@
         window.document.writeln("<br>"+window.document.baseURI)
         window.document.writeln("<br>"+window.document.documentURI)
         window.document.writeln("<br>"+window.document.namespaceURI)
+        window.document.writeln("<br>")
+        
+        var elemento = window.document.getElementsByTagName('p')[0]
+        elemento.style.color = 'blue';
+        window.document.writeln("<br>"+elemento.innerText)
+        window.document.writeln("<br>"+elemento.innerHTML)
+
+        var elemento = window.document.getElementById('msg')
+        window.document.writeln("<br>"+elemento.innerText)
+
+        var elemento = window.document.querySelector('div#msg')
+        elemento.style.color= 'red'
+        // var elemento = window.document.querySelectorAll()
+        
+
+      
     </script>
 </body>
 </html>
