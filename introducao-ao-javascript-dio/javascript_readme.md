@@ -94,9 +94,9 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
           var n = 3;
           n = n + 4; // n += 4;
           n = n * 4; // n*= 4; // n += 4; 
-          n = n / 2;  // n /= 4;
-          n = n  ** 2;  // n **= 4;
-          n = n  % 5;  // n %= 4;
+          n = n / 2;  // n /= 2;
+          n = n  ** 2;  // n **= 2;
+          n = n  % 5;  // n %= 5;
 
         ````
     
