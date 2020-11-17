@@ -89,6 +89,17 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
     `var e = 6 * 2 / d = 2` <br>
     `var f = b % e + 4 / e = 3` <br>
     
+    - auto-atribuicao
+        ````javascript
+          var n = 3;
+          n = n + 4; // n += 4;
+          n = n * 4; // n*= 4; // n += 4; 
+          n = n / 2;  // n /= 4;
+          n = n  ** 2;  // n **= 4;
+          n = n  % 5;  // n %= 4;
+
+        ````
+    
     
     
 - `relacionais` 
