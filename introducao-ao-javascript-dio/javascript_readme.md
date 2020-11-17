@@ -160,3 +160,8 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatena��o com temp
 - https://unsplash.com/
 
 - https://www.pexels.com/pt-br/
+
+
+# criar icone favicon
+https://www.favicon.cc/
+https://favicon.io/
