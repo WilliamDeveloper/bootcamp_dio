@@ -128,3 +128,4 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
         `||`<br>
     
 - `ternário`
+    ` condicao ? true : false ` - usado para simplificar o if
