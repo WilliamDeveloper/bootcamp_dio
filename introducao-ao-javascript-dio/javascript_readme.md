@@ -97,7 +97,7 @@
         `&&`<br>
         `||`<br>
     
-- `tern�rio`
+- `ternario`
     ` condicao ? true : false ` - usado para simplificar o if
     
     
