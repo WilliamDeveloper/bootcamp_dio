@@ -37,7 +37,7 @@
 
 
 
-###### operadores
+###### operadores<br>
 - `aritméticos` <br>
     `+`    `5 +  2 = 7`   - adicao <br>
     `-`    `5 -  2 = 3`   - subtracao <br>
@@ -51,7 +51,7 @@
         `* / %` <br>
         `+ -` <br>
     
-- `atribuicao` 
+- `atribuicao` <br>
     `var a = 5 + 3 = 8` <br>
     `var b = a % 5 = 3` <br>
     `var c = 5 * b ** 2 = 45` <br>
@@ -59,7 +59,7 @@
     `var e = 6 * 2 / d = 2` <br>
     `var f = b % e + 4 / e = 3` <br>
     
-    - auto-atribuicao
+    - auto-atribuicao<br>
         ````javascript
           var n = 3;
           n = n + 4; // n += 4;
@@ -70,7 +70,7 @@
 
         ````
         
-    - incremento
+    - incremento<br>
         ````javascript
           var n = 5;
           n = n + 1; // n++     ++n;
