@@ -131,7 +131,7 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatena��o com temp
 - `document.body.style.background = 'black';`
 - `document.querySelector('img#hplogo').style.filter = 'grayscale(100%)';`
 - `document.querySelector('img#hplogo').style.visibility = 'hidden';`
-- `document.querySelector('span.bstn-hl-title').innerText = 'Curso em video de javascript � o melhor do youtube';`
+- `document.querySelector('span.bstn-hl-title').innerText = 'Curso em video de javascript eh o melhor do youtube';`
 
 ###### eventos
 - `mouseenter` - 
