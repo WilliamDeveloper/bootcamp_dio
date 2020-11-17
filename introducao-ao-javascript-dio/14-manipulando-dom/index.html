@@ -24,7 +24,7 @@
     <p>aqui vai o resultado</p>
     <p>aprendendo a usar o <strong>DOM</strong> em javascript.</p>
     <div id="msg">clique em mim</div>
-    <div id="area">clique em mim</div>
+    <div id="area" onclick="clicar()">clique em mim</div>
     <script>
         window.document.writeln("<br>"+window.document.charset)
         window.document.writeln("<br>"+window.navigator.appName)
@@ -48,6 +48,10 @@
         // var elemento = window.document.querySelectorAll()
         
 
+        function clicar() {
+            var elemento =  window.document.getElementById('area')
+            elemento.innerText += 1
+        }
       
     </script>
 </body>
