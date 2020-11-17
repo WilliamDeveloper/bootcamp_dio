@@ -132,3 +132,6 @@ var b ="outra string"; var a = `uma string ${b}`;  //  concatenação com template
 - `document.querySelector('img#hplogo').style.filter = 'grayscale(100%)';`
 - `document.querySelector('img#hplogo').style.visibility = 'hidden';`
 - `document.querySelector('span.bstn-hl-title').innerText = 'Curso em video de javascript é o melhor do youtube';`
+
+###### eventos
+- `mouseenter` - 
