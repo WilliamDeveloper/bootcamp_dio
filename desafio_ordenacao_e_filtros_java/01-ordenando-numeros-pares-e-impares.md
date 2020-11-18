@@ -17,3 +17,9 @@ Exiba todos os valores lidos na entrada segundo a ordem apresentada acima. Cada 
 Exemplo de Entrada	|Exemplo de Saída
 ---|---
 10<br>4<br>32<br>34<br>543<br>3456<br>654<br>567<br>87<br>6789<br>98<br> | 4<br>32<br>34<br>98<br>654<br>3456<br>6789<br>567<br>543<br>87<br>
+
+
+````
+
+
+````
