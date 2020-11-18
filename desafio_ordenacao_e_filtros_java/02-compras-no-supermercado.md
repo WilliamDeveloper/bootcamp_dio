@@ -15,3 +15,59 @@ Exemplo de Entrada	|Exemplo de Saída
 2<br>carne laranja suco picles laranja picles laranja pera laranja pera pera | carne laranja picles suco laranja pera
 
 
+
+
+
+````java 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            int N = Integer.valueOf(br.readLine());
+
+//            int N = 2;//Integer.valueOf(br.readLine());
+        
+            List listas_compras = new ArrayList();
+
+            for (int i = 0; i < N; i++) {
+
+                String valor[] = br.readLine().split(" ");
+//                String valor[] = "carne laranja suco picles laranja picles".split(" ");//;br.readLine().split(" ");
+                ArrayList<String> lista = new ArrayList(Arrays.asList(valor));
+
+                Set<String> listWithoutDuplicates = new LinkedHashSet<String>(lista);
+                lista.clear();
+                lista.addAll(listWithoutDuplicates);
+
+                Collections.sort(lista);
+
+                listas_compras.add(lista);
+            }
+
+
+            for (int i = 0; i < listas_compras.size(); i++) {
+
+                List<String> vLista = (List) listas_compras.get(i);
+                for (int j = 0; j < vLista.size(); j++) {
+                    String item = vLista.get(j);
+                    String vAddSpace = "";
+                    if(j > 0 && j < vLista.size()-1 ){
+                        vAddSpace = " ";
+                    }else{
+                        vAddSpace = " ";
+                    }
+                    System.out.print(item+vAddSpace);
+                }
+                System.out.println();
+
+            }
+    }
+}
+
+
+````
