@@ -16,3 +16,10 @@ Exemplo de Entrada	| Exemplo de Saída
 ---|---
 1234 | 4321
 9876543210 | 0123456789
+
+
+````javascript
+var original = gets();
+console.log(original.split("").reverse().join(""));
+
+````
