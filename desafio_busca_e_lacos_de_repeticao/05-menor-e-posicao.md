@@ -14,30 +14,22 @@ Exemplo de Entrada	| Exemplo de Saída
 
 ````javascript
 
-let quantidade = parseInt(gets())
-let entrada = gets().split(' ')
+// Without bugs
+let E = parseInt(gets());
+let X = gets();
 
-for(let i =0; i < entrada.length; i ++){
-    entrada[i] = parseInt(entrada[i])
-}
+let XTrim = X.replace(/\s/g,',').trim().split(',');
 
-let menor_valor;
-let posicao;
+let Y = XTrim[0];
+let Z = 0;
 
-
-for(let i = 0 ; i < quantidade; i++) {
-  if (i == 0 ){
-      menor_valor = entrada[i]
-      posicao = i
-  }
-  
-  if(entrada[i] < menor_valor){
-      menor_valor = entrada[i]
-      posicao = i
+for (i=0; i<E; i++){
+  if (Y > parseInt(XTrim[i])){
+    Y = XTrim[i];
+    Z = i;
   }
 }
-
-console.log('Menor valor: '+menor_valor);
-console.log('Posicao: '+posicao);
+console.log("Menor valor: ", Y);
+console.log("Posicao: ", Z);
 
 ````
