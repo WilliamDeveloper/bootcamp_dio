@@ -11,3 +11,33 @@ A primeira linha apresenta a mensagem “Menor valor:” seguida de um espaço e
 Exemplo de Entrada	| Exemplo de Saída
 ---|---
 10<br>1 2 3 4 -5 6 7 8 9 10 | Menor valor: -5<br> Posicao: 4
+
+````javascript
+
+let quantidade = parseInt(gets())
+let entrada = gets().split(' ')
+
+for(let i =0; i < entrada.length; i ++){
+    entrada[i] = parseInt(entrada[i])
+}
+
+let menor_valor;
+let posicao;
+
+
+for(let i = 0 ; i < quantidade; i++) {
+  if (i == 0 ){
+      menor_valor = entrada[i]
+      posicao = i
+  }
+  
+  if(entrada[i] < menor_valor){
+      menor_valor = entrada[i]
+      posicao = i
+  }
+}
+
+console.log('Menor valor: '+menor_valor);
+console.log('Posicao: '+posicao);
+
+````
