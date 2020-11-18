@@ -16,3 +16,14 @@ Exemplos de Entrada	| Exemplos de Saída
 ---|---
 1 <br>1 2 3 2 1<br> | 2
 3<br>4 1 1 2 1<br> | 0
+
+````javascript
+let wineNumber = gets();
+let wineTesters = gets().split(' ');
+let correctAnswers = 0;
+
+let correctAnswersList = wineTesters.filter(correctAnswers => correctAnswers.includes(wineNumber));
+correctAnswers = correctAnswersList.length;
+
+console.log(correctAnswers);
+````
