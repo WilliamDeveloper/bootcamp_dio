@@ -17,3 +17,26 @@ Imprima a quantidade de números múltiplos de 2, 3, 4 e 5 presentes na lista. O
 Exemplo de Entrada	| Exemplo de Saída
 ---|---
 5<br>2 5 4 20 10<br> | 4 Multiplo(s) de 2<br>0 Multiplo(s) de 3<br>2 Multiplo(s) de 4<br>3 Multiplo(s) de 5<br>
+
+
+````javascript
+let n = parseInt(gets())
+let list = gets().split(' ')
+cont = [0,0,0,0]
+
+for(let i = 0; i < n; i++){
+ if(parseInt(list[i]) % 2 == 0){
+   cont[0]++}
+ if(parseInt(list[i]) % 3 == 0){
+  cont[1]++}
+  if(parseInt(list[i]) % 4 == 0){
+    cont[2]++}
+  if(parseInt(list[i]) % 5 == 0){
+    cont[3]++}
+}
+
+console.log(cont[0] + ' Multiplo(s) de 2')
+console.log(cont[1] + ' Multiplo(s) de 3')
+console.log(cont[2] + ' Multiplo(s) de 4')
+console.log(cont[3] + ' Multiplo(s) de 5')
+````
