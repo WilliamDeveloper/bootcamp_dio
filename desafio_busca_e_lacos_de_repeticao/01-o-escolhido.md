@@ -16,3 +16,32 @@ Exemplo de Entrada	| Exemplo de Saída
 ---|---
 3<br>1000 5<br>1001 10<br>1002 6<br> | 1001
 4<br>900775 5.7<br>201553 7.9<br>5032 6.2<br>2088 2.1<br>| Minimum note not reached
+
+
+````javascript
+let n = parseInt(gets()); //3 <= n <= 100
+
+let arrMat = Array(n);
+let arrNot = Array(n);
+
+for(i=0; i<n; i++){
+  let line = gets().split(' ');
+  arrMat[i] = parseInt(line[0]);
+  arrNot[i] = parseFloat(line[1]);
+}
+
+let maior = 0;
+var max = arrNot.reduce(function(a, b) {
+  return Math.max(a, b);
+}); 
+for(i=0; i<n; i++){
+  if(max < 8){
+    console.log('Minimum note not reached'); 
+    break;
+  }else{
+ if(arrNot[i] === max){
+    console.log(arrMat[i]);
+  }
+  }
+  }
+````
