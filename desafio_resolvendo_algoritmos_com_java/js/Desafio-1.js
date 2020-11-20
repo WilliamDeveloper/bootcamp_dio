@@ -57,10 +57,10 @@ function gets(){
  return lista[index]
 }
 
-for (let i = 0; i < lista.length; i++) {
-  console.log('gets()',gets())  
-}
-throw new Error('pinba')
+// for (let i = 0; i < lista.length; i++) {
+//   console.log('gets()',gets())  
+// }
+// throw new Error('pinba')
 
 
 //Código do desafio:
