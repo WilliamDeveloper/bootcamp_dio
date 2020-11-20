@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -5,33 +8,45 @@ import java.util.Stack;
 
 public class Ex01{
 
-    public static List<String> listaGets = new ArrayList<String>();
-    public static int vContGets = 0;
-    public static String[] vEntrada = {
-            "2",
-            "1 1 1",
-            "2 0 4",
-            "3",
-            "1 0 0",
-            "0 1 0",
-            "0 0 0",
-            "0",
-    };
-
-    public static boolean isListaComDados(){
-        if(listaGets.size()>0) return true;
-        listaGets = Arrays.asList(vEntrada);
-        return true;
-    }
+    public  static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static String gets(){
-        String vRetorno = "";
-        if(isListaComDados()){
-            vRetorno = listaGets.get( vContGets % listaGets.size());
-            vContGets++;
+        String vRetorno;
+        try {
+            vRetorno= br.readLine();
+        } catch (IOException e) {
+            vRetorno= "";
         }
-        return vRetorno;
+        return String.valueOf(vRetorno);
     }
+
+//    public static List<String> listaGets = new ArrayList<String>();
+//    public static int vContGets = 0;
+//    public static String[] vEntrada = {
+//            "2",
+//            "1 1 1",
+//            "2 0 4",
+//            "3",
+//            "1 0 0",
+//            "0 1 0",
+//            "0 0 0",
+//            "0",
+//    };
+//
+//    public static boolean isListaComDados(){
+//        if(listaGets.size()>0) return true;
+//        listaGets = Arrays.asList(vEntrada);
+//        return true;
+//    }
+//
+//    public static String gets(){
+//        String vRetorno = "";
+//        if(isListaComDados()){
+//            vRetorno = listaGets.get( vContGets % listaGets.size());
+//            vContGets++;
+//        }
+//        return vRetorno;
+//    }
 
 //        System.out.println("OI");
 //        Stack pilhasCartas = new Stack();

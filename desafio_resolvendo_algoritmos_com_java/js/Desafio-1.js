@@ -82,15 +82,19 @@ do{
 
 let resultados = [];
 for(pilhas of pilhasCartas){
+  console.log("pilhas=> ",pilhas," pilhasCartas=> " ,pilhasCartas)
   let resultadoJogo = [];
   for(pilha of pilhas){
+    console.log("pilha=> ",pilha," pilhas=> " ,pilhas)
     let cartas = pilha.split(" ").map(num => parseInt(num));
+    console.log("cartas=> ",cartas)
     resultadoJogo.push(verificarRetirada(cartas));
   }
   resultados.push(resultadoJogo);
 }
 
 for(resultado of resultados){
+  console.log("resultado=> ",resultado," resultados=> " ,resultados)
   let jogo = true;
   for(let i=0; i<resultado.length; i++){
     jogo = jogo && resultado[i];
