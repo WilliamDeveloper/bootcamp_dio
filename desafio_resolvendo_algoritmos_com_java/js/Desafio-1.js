@@ -33,12 +33,43 @@ Para cada instância, imprima uma linha contendo o número 1 se o jogador pode g
 |---------------------------------------|
 
 */
+console.log('oi')
+var cont = 0;
+
+var lista = [
+  "2",
+  "1 1 1",
+  "2 0 4",
+  "3",
+  "1 0 0",
+  "0 1 0",
+  "0 0 0",
+  "0",
+];
+
+function gets(){
+
+  if(cont > lista.length) return;
+  console.log('gets')
+  let index = cont % lista.length;
+  cont++
+
+ return lista[index]
+}
+
+for (let i = 0; i < lista.length; i++) {
+  console.log('gets()',gets())  
+}
+throw new Error('pinba')
+
 
 //Código do desafio:
 let pilhasCartas = [];
 let leitura = "";
 do{
   leitura = gets();
+  console.log('leitura',leitura)
+
   if(leitura !== "0"){
     let qtdPilha = parseInt(leitura);
     let pilha = [];
