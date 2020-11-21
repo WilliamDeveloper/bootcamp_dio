@@ -43,6 +43,26 @@ As linhas devem ser impressas em ordem crescente da letra inicial.
 
 */
 
+
+console.log('oi')
+
+var cont = 0;
+
+var lista = [
+  "abcdef abc abc abc",
+  ".",
+];
+
+function gets(){
+
+  if(cont > lista.length) return;
+  console.log('gets')
+  let index = cont % lista.length;
+  cont++
+
+ return lista[index]
+}
+
 //Código do desafio:
 let leituras = [];
 let dado = "";
@@ -55,6 +75,7 @@ do{
 
 let novasLeituras = [];
 for(leitura of leituras){
+  console.log("leitura ",leitura, 'leituras ',leituras)
   let arrayLeitura = leitura.split(" ");
   let novasLinhas = [];
   let palavra = [];
@@ -63,18 +84,30 @@ for(leitura of leituras){
   let contadorTroca = 0;
 
   for(let i=0; i<arrayLeitura.length; i++){
+    console.log('\n i=',i)
+    console.log("arrayLeitura ",arrayLeitura)
     let subs = arrayLeitura[i];
+    console.log('subs',subs)
     palavra.push(subs);
     if(subs.length>2){
       let novaPalavra = arrayLeitura[i].substring(0, 1).concat(".");
+      
+      
+      console.log("novaPalavra ",novaPalavra)
+
       palavraTrocada.push(novaPalavra);
+
+      console.log("palavraTrocada ",palavraTrocada)
+
       let novaLinha = arrayLeitura.map(linha => {
+        console.log("linha ",linha,"arrayLeitura[i] ",arrayLeitura[i],contadorTroca)
         if(linha === arrayLeitura[i]){
           contadorTroca++;
           return novaPalavra;
         }
         return linha;
       });
+      console.log("novaLinha ",novaLinha)
       novasLinhas.push(novaLinha.join(" "));
       trocas.push(contadorTroca);
     }
@@ -83,11 +116,14 @@ for(leitura of leituras){
   let menorPalavra = 9999999;
   let indice = 0;
   for(novaLinha in novasLinhas){
+    console.log("novaLinha ",novaLinha, 'novasLinhas ',novasLinhas)
     if(novasLinhas[novaLinha].length < menorPalavra){
       menorPalavra = novasLinhas[novaLinha].length;
       indice = parseInt(novaLinha);
     }
   }
+
+  console.log(indice,novasLinhas,trocas,palavraTrocada,palavra)
 
   console.log();
   console.log(novasLinhas[indice]);
